@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import placeholder from "./img/placeholder.png";
+import "./style.css"
 
 function Nav() {
     return (
