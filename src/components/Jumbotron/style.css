@@ -1,0 +1,8 @@
+.jumbotron {
+    background-color: pink;
+    height: 15rem;
+}
+
+#jumbotron-header {
+    padding-top: 5rem;
+}

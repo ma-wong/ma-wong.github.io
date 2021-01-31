@@ -1,0 +1,32 @@
+#contact-info-div {
+    background-color: pink;
+}
+
+.contact-icons {
+    height: 4rem;
+    width: 4rem;
+}
+
+#gh-icon {
+    margin-right: 1rem;
+}
+
+.contact-info {
+    padding:2rem 1rem 0rem;
+}
+
+.contact-p {
+    margin-bottom: 0px;
+}
+
+.contact-card {
+    margin-top: 4rem;
+}
+
+#contact-input-header {
+    margin-bottom: 1.5rem;
+}
+
+.contact-input {
+    padding: 1rem 2rem;
+}

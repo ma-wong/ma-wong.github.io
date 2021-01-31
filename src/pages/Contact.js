@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import ContactCard from "../components/ContactCard";
 import Jumbotron from "../components/Jumbotron";
-
 
 class Contact extends Component {
     
@@ -8,6 +8,7 @@ class Contact extends Component {
         return (
             <div>
                 <Jumbotron />
+                <ContactCard />
             </div>
         )
     }
