@@ -13,10 +13,22 @@ function Nav() {
                     </a>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav">
-                            <a className="nav-link active" aria-current="page" href="#">HOME</a>
-                            <a className="nav-link" href="#">ABOUT</a>
-                            <a className="nav-link" href="#">PORTFOLIO</a>
-                            <a className="nav-link" href="#">CONTACT</a>
+                            <Link to= {"/"}>
+                                <a className="nav-link active" aria-current="page" href="#">HOME</a>
+                            </Link>
+
+                            <Link to={"/about"}>
+                                <a className="nav-link" href="#">ABOUT</a>
+                            </Link>
+
+                            <Link to={"/portfolio"}>
+                                <a className="nav-link" href="#">PORTFOLIO</a>
+                            </Link>
+
+                            <Link to={"/contact"}>
+                                <a className="nav-link" href="#">CONTACT</a>
+                            </Link>
+                            
                         </div>
                     </div>
                 </div>

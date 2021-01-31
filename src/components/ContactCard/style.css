@@ -12,7 +12,7 @@
 }
 
 .contact-info {
-    padding:2rem 1rem 0rem;
+    padding:3rem 1rem 0rem;
 }
 
 .contact-p {
@@ -20,11 +20,14 @@
 }
 
 .contact-card {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 #contact-input-header {
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+    font-size: 30pt;
+    text-align: center;
 }
 
 .contact-input {

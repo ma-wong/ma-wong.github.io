@@ -8,12 +8,12 @@ function ContactCard() {
     return (
         <div className="container">
             <div className="card contact-card">
-                <div className="card-body">
+                {/* <div className="card-body"> */}
                     <div className="row">
 
                         {/* Contact Form */}
                         <div className="col-md-8 contact-input">
-                            <h2 id="contact-input-header">SEND ME A MESSAGE</h2>
+                            <h2 id="contact-input-header">CONTACT ME</h2>
                             
                             <form>
 
@@ -87,7 +87,7 @@ function ContactCard() {
 
 
                     </div>
-                </div>
+                {/* </div> */}
             </div>
         </div>
     )
