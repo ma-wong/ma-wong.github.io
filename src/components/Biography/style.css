@@ -1,0 +1,13 @@
+#about-img {
+    border-radius: 50%;
+    height: max-content;
+    width: max-content;
+}
+
+#bio-text {
+    font-size: 17pt;
+}
+
+.about-img-container {
+    text-align: center;
+}

@@ -2,6 +2,7 @@ import React from "react";
 
 import githubIcon from "./img/github.png";
 import linkedInIcon from "./img/linkedin.png";
+import resumeDownload from "./assets/web-resume.pdf";
 import "./style.css";
 
 function ContactCard() {
@@ -47,7 +48,7 @@ function ContactCard() {
                                 
                                 {/* submit btn */}
                                 <div className="d-grid gap-2 col-6 mx-auto">
-                                    <button className="btn btn-primary" type="submit">Submit</button>
+                                    <button id="submit-btn" className="btn btn-success" type="submit">Submit</button>
                                 </div>
                                 
                             </form>
@@ -60,17 +61,17 @@ function ContactCard() {
                         <div id="contact-info-div" className="col-md-4">
                         
                             <div className="row contact-info">
-                                <h6>EMAIL</h6>
+                                <h5>EMAIL</h5>
                                 <p className="contact-p">mw.web.develop@gmail.com</p>
                             </div>
 
                             <div className="row contact-info">
-                                <h6>TELEPHONE</h6>
+                                <h5>TELEPHONE</h5>
                                 <p className="contact-p">(949) 337-8617</p>
                             </div>
 
                             <div className="row contact-info">
-                                <h6>LOCATION</h6>
+                                <h5>LOCATION</h5>
                                 <p className="contact-p">Irvine, CA</p>
                             </div>
                             
@@ -80,6 +81,12 @@ function ContactCard() {
                                 </a>
                                 <a href="https://github.com/ma-wong">
                                     <img className="contact-icons" src={linkedInIcon}></img>
+                                </a>
+                            </div>
+
+                            <div>
+                                <a href={resumeDownload} download="Resume">
+                                    <button id="download-btn" type="button" className="btn btn-outline-light" >DOWNLOAD RESUME <i className="fa fa-file-pdf-o"></i></button>
                                 </a>
                             </div>
 

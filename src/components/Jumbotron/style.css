@@ -1,9 +1,10 @@
 .jumbotron {
-    background-color: pink;
+    background-color: rgb(144, 187, 144);
     height: 19rem;
 }
 
 #jumbotron-header {
-    padding-top: 9rem;
+    padding-top: 8rem;
     font-size: 45pt;
+    text-align: center;
 }

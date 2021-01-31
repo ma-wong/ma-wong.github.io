@@ -1,5 +1,5 @@
 #contact-info-div {
-    background-color: pink;
+    background-color: rgb(144, 187, 144);
 }
 
 .contact-icons {
@@ -20,16 +20,27 @@
 }
 
 .contact-card {
-    margin-top: 2rem;
+    margin: 2rem 0rem 4rem;
 }
 
 #contact-input-header {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    font-size: 30pt;
-    text-align: center;
+    font-size: 27pt;
 }
 
 .contact-input {
     padding: 1rem 2rem;
+}
+
+#download-btn {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+#submit-btn {
+    background-color:  rgb(92, 167, 92);
+    border-color: rgb(92, 167, 92);
 }
