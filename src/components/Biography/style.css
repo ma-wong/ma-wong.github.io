@@ -5,9 +5,28 @@
 }
 
 #bio-text {
-    font-size: 17pt;
+    font-size: 15pt;
+    line-height: 1.7;
 }
 
 .about-img-container {
     text-align: center;
+}
+
+#skills-header {
+    font-size: 17pt;
+    text-decoration: underline;
+}
+
+.skills-list {
+    font-size: 14pt;
+    line-height: 1.7;
+    padding-left: 1rem;
+    margin-left: 2rem;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+
 }

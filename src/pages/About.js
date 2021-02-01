@@ -16,9 +16,9 @@ class About extends Component {
                     </div>
                     <div className="col-md-3"></div>
                 </div>
-                <div className="row">
-                    <Biography />
-                </div>
+    
+                <Biography />
+                
             </div>
         )
     }
