@@ -1,0 +1,31 @@
+footer {
+    margin-top: 5rem;
+    padding: 1.5rem;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+footer ul {
+    padding:0;
+    list-style:none;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+
+footer li {
+    padding:0 2rem;
+}
+
+.footer-links a {
+    font-size: 14pt;
+    color: white;
+}
+
+#quick-links-title {
+    color: rgb(144, 187, 144);
+}
+
+.quick-links-list a {
+    color: white;
+}

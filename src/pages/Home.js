@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Hexagons from "../components/Hexagons";
-import "../pageStyles/Home.css";
+import Header from "../components/Header";
 
 class Home extends Component {
 
@@ -10,12 +10,7 @@ class Home extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-2"></div>
-                        <div className="home-header col-md-8">
-                            <h1 id="home-title">Hello, I'm <span id="home-name">Morgan Wong.</span></h1>
-                            <p id="home-description">
-                                I'm a full-stack web developer and designer.
-                            </p>
-                        </div>
+                        <Header />
                         <div className="col-md-2"></div>
                     </div>
                 </div>
