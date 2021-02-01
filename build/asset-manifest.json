@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b7b2dc63.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.9b93a023.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9b93a023.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.bd082e9f.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.bd082e9f.js.map",
+    "static/js/2.a049623d.chunk.js": "/react-portfolio/static/js/2.a049623d.chunk.js",
+    "static/js/2.a049623d.chunk.js.map": "/react-portfolio/static/js/2.a049623d.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.b7b2dc63.chunk.css.map": "/react-portfolio/static/css/main.b7b2dc63.chunk.css.map",
+    "static/js/2.a049623d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.a049623d.chunk.js.LICENSE.txt",
+    "static/media/details.714cbc7a.png": "/react-portfolio/static/media/details.714cbc7a.png",
+    "static/media/eventsTab.c02fc1ea.png": "/react-portfolio/static/media/eventsTab.c02fc1ea.png",
+    "static/media/github.dde6b44f.png": "/react-portfolio/static/media/github.dde6b44f.png",
+    "static/media/home.148cbded.png": "/react-portfolio/static/media/home.148cbded.png",
+    "static/media/icebox-home.28d301cc.png": "/react-portfolio/static/media/icebox-home.28d301cc.png",
+    "static/media/musicology.fe92dfec.png": "/react-portfolio/static/media/musicology.fe92dfec.png",
+    "static/media/mysql-logo.4676ad98.png": "/react-portfolio/static/media/mysql-logo.4676ad98.png",
+    "static/media/nodejs-logo.ac96a6c9.png": "/react-portfolio/static/media/nodejs-logo.ac96a6c9.png",
+    "static/media/product.a90a1c98.png": "/react-portfolio/static/media/product.a90a1c98.png",
+    "static/media/profile.cd6f67e7.jpg": "/react-portfolio/static/media/profile.cd6f67e7.jpg",
+    "static/media/react.88d5c8b1.png": "/react-portfolio/static/media/react.88d5c8b1.png",
+    "static/media/search.49158336.png": "/react-portfolio/static/media/search.49158336.png",
+    "static/media/signup.85bcad66.png": "/react-portfolio/static/media/signup.85bcad66.png",
+    "static/media/socialTab.4f0415c9.png": "/react-portfolio/static/media/socialTab.4f0415c9.png",
+    "static/media/web-resume.b1723116.pdf": "/react-portfolio/static/media/web-resume.b1723116.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd082e9f.js",
+    "static/js/2.a049623d.chunk.js",
+    "static/css/main.b7b2dc63.chunk.css",
+    "static/js/main.9b93a023.chunk.js"
+  ]
+}
