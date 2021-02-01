@@ -6,7 +6,7 @@ import "./style.css"
 function Nav() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="container-fluid">
                     {/* <a className="navbar-brand" href="#">
                         <img src={placeholder} alt="" width="30" height="24" />

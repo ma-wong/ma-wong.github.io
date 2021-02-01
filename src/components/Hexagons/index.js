@@ -12,7 +12,7 @@ import "./style.css";
 
 function Hexagons() {
     return (
-        <div>
+        <div className="container">
             <div className="grid">
                 <ul id="hexGrid">
                     <li className="hex">

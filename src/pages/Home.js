@@ -11,10 +11,9 @@ class Home extends Component {
                     <div className="row">
                         <div className="col-md-2"></div>
                         <div className="home-header col-md-8">
-                            <h1 id="home-title">Hammy Bears</h1>
+                            <h1 id="home-title">Hello, I'm <span id="home-name">Morgan Wong.</span></h1>
                             <p id="home-description">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni a eius incidunt libero ullam tenetur numquam, nulla porro.
-                                Voluptatum quasi provident tempora animi quo iste praesentium distinctio, saepe suscipit in?
+                                I'm a full-stack web developer and designer.
                             </p>
                         </div>
                         <div className="col-md-2"></div>
