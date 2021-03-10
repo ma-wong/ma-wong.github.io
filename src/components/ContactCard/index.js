@@ -76,10 +76,10 @@ function ContactCard() {
                             </div>
                             
                             <div className="icon-container contact-info">
-                                <a href="https://github.com/ma-wong">
+                                <a href="https://github.com/ma-wong" target="_blank" rel="noopener noreferrer">
                                     <img id="gh-icon" className="contact-icons" src={githubIcon}></img>
                                 </a>
-                                <a href="https://github.com/ma-wong">
+                                <a href="https://linkedin.com/in/morgan-wong-95b305207" target="_blank" rel="noopener noreferrer">
                                     <img className="contact-icons" src={linkedInIcon}></img>
                                 </a>
                             </div>
