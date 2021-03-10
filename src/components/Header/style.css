@@ -1,12 +1,11 @@
 .home-header {
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 #home-title {
-    font-size: 33pt;
-    margin-bottom: 1rem;
+    font-size: 30pt;
 }
 
 #home-description {
@@ -16,4 +15,5 @@
 #home-name {
     color: rgb(124, 161, 124);
     font-weight: bolder;
+    font-size: 50pt;
 }

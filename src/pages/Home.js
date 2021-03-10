@@ -8,14 +8,16 @@ class Home extends Component {
         return(
             <div>
                 <div className="container">
+                    
                     <div className="row">
                         <div className="col-md-2"></div>
                         <Header />
                         <div className="col-md-2"></div>
                     </div>
+
+                    <Hexagons />
+
                 </div>
-            
-                <Hexagons />
 
             </div>
             
