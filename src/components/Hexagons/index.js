@@ -20,7 +20,7 @@ function Hexagons() {
                     <a className="hexLink" href="#">
                         <div className='img' style={{ backgroundImage: `url(${mySqlLogo})` }}></div>
                         <h1 id="demo1">MySql</h1>
-                        {/* <p id="demo2">Open-source relational database management system.</p> */}
+                        <p id="demo2">Open-source relational database management system.</p>
                     </a>
                     </div>
                 </li>

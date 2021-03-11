@@ -1,8 +1,9 @@
 .nav-link {
     font-size: 15pt;
+    color: #959794;
     margin:1rem 1.5rem;
     display: inline-block;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid;
     padding-bottom: 4px;
 }
 

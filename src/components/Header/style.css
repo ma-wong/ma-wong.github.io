@@ -1,19 +1,24 @@
 .home-header {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 2rem;
     margin-bottom: 2rem;
+    margin-left: 5.5rem;
 }
 
 #home-title {
     font-size: 30pt;
+    color: #959794;
+    margin-bottom: 0;
 }
 
 #home-description {
     font-size: 25pt;
+    color: #e9322e;
 }
 
 #home-name {
-    color: rgb(124, 161, 124);
+    color: #ffffff;
     font-weight: bolder;
     font-size: 50pt;
+    margin-bottom: 0;
 }

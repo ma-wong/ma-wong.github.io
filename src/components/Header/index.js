@@ -4,11 +4,11 @@ import "./style.css";
 function Header() {
     
     return(
-        <header className="home-header col-md-8">
-            <p id="home-title">Hi, my name is </p>
-            <p id="home-name">Morgan Wong.</p>
+        <header className="home-header">
+            <p id="home-title">Hello, my name is</p>
+            <p id="home-name">Morgan Wong</p>
             <p id="home-description">
-                I'm a full-stack web developer and designer.
+                Full-stack web developer / Designer / Photographer.
             </p>
         </header>
     )
