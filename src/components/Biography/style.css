@@ -2,11 +2,14 @@
     border-radius: 50%;
     height: 376px;
     width: 376px;
+    background-color: #45433E;
+    border-color: #45433E;
 }
 
 #bio-text {
     font-size: 15pt;
     line-height: 1.7;
+    color: #959794;
 }
 
 .about-img-container {
@@ -15,7 +18,9 @@
 
 #skills-header {
     font-size: 17pt;
+    font-weight: lighter;
     text-decoration: underline;
+    color: #e9322e;
 }
 
 .skills-list {
@@ -23,6 +28,7 @@
     line-height: 1.7;
     padding-left: 1rem;
     margin-left: 2rem;
+    color: #e9322e;
 }
 
 .tab {

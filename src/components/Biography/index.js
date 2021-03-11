@@ -31,19 +31,24 @@ function Biography() {
                 <h6 id="skills-header" className="col-md-1">SKILLS:</h6>
                 <div className="col-md-6">
                     <div className="row">
-                        <ul className="col-md-5 skills-list">
+                        <ul className="col-md-3 skills-list">
                             <li>Javascript</li>
                             <li>React.js</li>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>jQuery</li>
                         </ul>
-                        <ul className="col-md-5 skills-list">
+                        <ul className="col-md-3 skills-list">
+                            <li>jQuery</li>
                             <li>Bootstrap</li>
                             <li>Node.js</li>
                             <li>MySQL</li>
+                        </ul>
+                        <ul className="col-md-3 skills-list">
                             <li>MongoDB</li>
                             <li>Express.js</li>
+                            <li>Photoshop</li>
+                            <li>Procreate</li>
+            
                         </ul>
                     </div>
                 </div>
