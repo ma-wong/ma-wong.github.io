@@ -1,5 +1,5 @@
 #contact-info-div {
-    background-color: rgb(144, 187, 144);
+    background-color: #959794;
 }
 
 .contact-icons {
@@ -17,10 +17,14 @@
 
 .contact-p {
     margin-bottom: 0px;
+    color: #e9322e;
+    font-size: 14pt;
 }
 
 .contact-card {
     margin: 2rem 0rem 4rem;
+    background-color: #19171a;
+    border-color: #45433e;
 }
 
 #contact-input-header {
@@ -43,4 +47,16 @@
 #submit-btn {
     background-color:  rgb(92, 167, 92);
     border-color: rgb(92, 167, 92);
+}
+
+#contact-input-header {
+    color: #ffffff;
+}
+
+.contact-form-label {
+    color: #959794;
+}
+
+.contact-form-input {
+    background-color: #45433e;
 }
