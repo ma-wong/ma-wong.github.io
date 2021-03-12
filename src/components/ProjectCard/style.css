@@ -1,6 +1,7 @@
 
 .portfolio-card-title {
     font-size: 20pt;
+    color: #ffffff;
 }
 
 .project-img {
@@ -8,5 +9,19 @@
 }
 
 #portfolio-footer {
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+.project-card {
+    /* background-color: #45433e; */
+    background-color: #19171a;
+    color: #959794;
+    border-color: #45433e;
+}
+
+.project-btns {
+    color: #e9322e;
+    border-color: #e9322e;
     margin-top: 1rem;
 }

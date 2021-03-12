@@ -19,7 +19,7 @@ function ProjectCard() {
         <div>
 
             {/* Card 1 */}
-            <div className="card mb-3">
+            <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
                     <div id="carouselExampleIndicators-1" className="carousel slide col-md-7" data-bs-ride="carousel">
@@ -50,7 +50,7 @@ function ProjectCard() {
                     </div>
                     
                     <div className="col-md-5">
-                        <div className="card-body">
+                        <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Snippets</h5>
                             <p className="card-text">
@@ -61,10 +61,10 @@ function ProjectCard() {
 
                             <div className="row">
                                 <a href="https://github.com/ma-wong/project-3" className="col-md-6">
-                                    <button className="btn btn-primary" type="button">Github Repository</button>
+                                    <button className="btn btn-outline project-btns" type="button">Github Repository</button>
                                 </a>
                                 <a href="#" className="col-md-6">
-                                    <button className="btn btn-primary" type="button">Deployed App</button>
+                                    <button className="btn btn-outline project-btns" type="button">Deployed App</button>
                                 </a>
                             </div>
                     
@@ -75,7 +75,7 @@ function ProjectCard() {
             </div>
 
             {/* card 2 */}
-            <div className="card mb-3">
+            <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
                     <div id="carouselExampleIndicators-2" className="carousel slide col-md-7" data-bs-ride="carousel">
@@ -106,7 +106,7 @@ function ProjectCard() {
                     </div>
                     
                     <div className="col-md-5">
-                        <div className="card-body">
+                        <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">ICE BOX</h5>
                             <p className="card-text">Icebox is an online sneaker encyclopedia.
@@ -116,10 +116,10 @@ function ProjectCard() {
 
                             <div className="row">
                                 <a href="https://github.com/brandonleepiercy/sneaker-wikipedia" className="col-md-6">
-                                    <button className="btn btn-primary" type="button">Github Repository</button>
+                                    <button className="btn btn-outline project-btns" type="button">Github Repository</button>
                                 </a>
                                 <a href="https://infinite-castle-57105.herokuapp.com/" className="col-md-6">
-                                    <button className="btn btn-primary" type="button">Deployed App</button>
+                                    <button className="btn btn-outline project-btns" type="button">Deployed App</button>
                                 </a>
                             </div>
                     
@@ -130,7 +130,7 @@ function ProjectCard() {
             </div>
 
             {/* card 3 */}
-            <div className="card mb-3">
+            <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
                     <div id="carouselExampleIndicators-3" className="carousel slide col-md-7" data-bs-ride="carousel">
@@ -161,7 +161,7 @@ function ProjectCard() {
                     </div>
                     
                     <div className="col-md-5">
-                        <div className="card-body">
+                        <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Musicology</h5>
                             <p className="card-text">
@@ -171,10 +171,10 @@ function ProjectCard() {
 
                             <div className="row">
                                 <a href="https://github.com/mfitzwinick/binary-babes" className="col-md-6">
-                                    <button className="btn btn-primary" type="button">Github Repository</button>
+                                    <button className="btn btn-outline project-btns" type="button">Github Repository</button>
                                 </a>
                                 {/* <a href="https://infinite-castle-57105.herokuapp.com/" className="col-md-6">
-                                    <button className="btn btn-primary" type="button">Deployed App</button>
+                                    <button className="btn btn-outline project-btns" type="button">Deployed App</button>
                                 </a> */}
                             </div>
                     
