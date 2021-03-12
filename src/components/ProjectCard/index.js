@@ -60,14 +60,14 @@ function ProjectCard() {
                             </p>
 
                             <div className="row">
-                                <a href="https://github.com/ma-wong/project-3" className="col-md-6">
-                                    <button className="btn btn-outline project-btns" type="button">Github Repository</button>
+                                <a href="https://github.com/ma-wong/project-3" target="_blank" className="col-md-6">
+                                    <button class="shrink-border project-btns">Github Repo</button>
                                 </a>
-                                <a href="#" className="col-md-6">
-                                    <button className="btn btn-outline project-btns" type="button">Deployed App</button>
-                                </a>
+                                <a href="#" className="col-md-6" target="_blank">
+                                    <button class="shrink-border project-btns">Deployed App</button>
+                                </a>                               
                             </div>
-                    
+                                             
                             <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p>
                         </div>
                     </div>
@@ -115,12 +115,13 @@ function ProjectCard() {
                             </p>
 
                             <div className="row">
-                                <a href="https://github.com/brandonleepiercy/sneaker-wikipedia" className="col-md-6">
-                                    <button className="btn btn-outline project-btns" type="button">Github Repository</button>
+                                <a href="https://github.com/ma-wong/icebox" target="_blank" className="col-md-6">
+                                    <button class="shrink-border project-btns">Github Repo</button>
                                 </a>
-                                <a href="https://infinite-castle-57105.herokuapp.com/" className="col-md-6">
-                                    <button className="btn btn-outline project-btns" type="button">Deployed App</button>
+                                <a href="https://infinite-castle-57105.herokuapp.com/" className="col-md-6" target="_blank">
+                                    <button class="shrink-border project-btns">Deployed App</button>
                                 </a>
+                                
                             </div>
                     
                             <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p>
@@ -170,11 +171,11 @@ function ProjectCard() {
                             </p>
 
                             <div className="row">
-                                <a href="https://github.com/mfitzwinick/binary-babes" className="col-md-6">
-                                    <button className="btn btn-outline project-btns" type="button">Github Repository</button>
+                                <a href="https://github.com/mfitzwinick/binary-babes" target="_blank" className="col-md-6">
+                                    <button class="shrink-border project-btns">Github Repo</button>
                                 </a>
-                                {/* <a href="https://infinite-castle-57105.herokuapp.com/" className="col-md-6">
-                                    <button className="btn btn-outline project-btns" type="button">Deployed App</button>
+                                {/* <a href="https://infinite-castle-57105.herokuapp.com/" className="col-md-6" target="_blank">
+                                    <button class="shrink-border project-btns">Deployed App</button>
                                 </a> */}
                             </div>
                     

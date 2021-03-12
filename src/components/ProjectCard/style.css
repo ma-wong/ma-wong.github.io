@@ -14,14 +14,84 @@
 }
 
 .project-card {
-    /* background-color: #45433e; */
-    background-color: #19171a;
+    background-color: transparent;
     color: #959794;
     border-color: #45433e;
 }
 
+/* Button Links */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
 .project-btns {
-    color: #e9322e;
-    border-color: #e9322e;
-    margin-top: 1rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.project-btns {
+  position: relative;
+  border: none;
+  font-size: 17px;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s;
+  outline: none;
+  border: 2px solid transparent;
+  width: 100%;
+  padding: .5rem 0rem;
+  margin-top: 1rem;
+}
+
+.project-btns:active {
+  transform: translateY(3px);
+}
+
+.project-btns::after, .project-btns::before {
+  border-radius: 2px;
+}
+
+.shrink-border {
+  background-color: transparent;
+  color: #e9322e;
+}
+
+.shrink-border:hover {
+  background-color: transparent;
+  box-shadow: none;
+  color: #e6e6e6;
+}
+
+.shrink-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e9322e;
+  transition: opacity 0.3s, border 0.3s;
+}
+
+.shrink-border:hover::before {
+  opacity: 0;
+}
+
+.shrink-border::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 2px solid #e6e6e6;
+  opacity: 0;
+  transform: scaleX(1.1) scaleY(1.3);
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.shrink-border:hover::after {
+  opacity: 1;
+  transform: scaleX(1) scaleY(1);
 }
