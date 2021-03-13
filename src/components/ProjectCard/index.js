@@ -8,7 +8,7 @@ import Musicology2 from "./img/Musicology/musicology.png";
 import Musicology3 from "./img/Musicology/socialTab.png";
 
 import Snippets1 from "./img/Snippets/home.png";
-import Snippets2 from "./img/Snippets/signup.png";
+import Snippets2 from "./img/Snippets/browse.png";
 import Snippets3 from "./img/Snippets/details.png";
 
 
