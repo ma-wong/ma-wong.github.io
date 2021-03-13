@@ -7,3 +7,10 @@
 .portfolio-header-row {
     margin: 2rem 0rem;
 }
+
+.acute{
+    border-bottom:400px solid;
+    border-right:480px solid transparent;
+    border-left:200px solid transparent;
+    z-index: -1;
+}

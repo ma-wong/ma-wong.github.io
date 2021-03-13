@@ -10,7 +10,6 @@ function Biography() {
             <div className="row">
                 <div className="col-md-5 about-img-container">
                     <img id="about-img" src={profileImg} class="img-thumbnail" alt="..."/>
-
                 </div>
 
                 <div className="col-md-7">

@@ -15,7 +15,11 @@ class About extends Component {
                         <hr />
                     </div>
                     <div className="col-md-3"></div>
+                    <section>
+                        <span class="acute"></span>
+                    </section>
                 </div>
+                
     
                 <Biography />
                 
