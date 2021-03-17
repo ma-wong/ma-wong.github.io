@@ -1,4 +1,4 @@
-#contact-info-div {
+/* #contact-info-div {
     background-color: #959794;
 }
 
@@ -59,4 +59,84 @@
 
 .contact-form-input {
     background-color: #45433e;
+} */
+
+/* #contact-info-div {
+    background-color: #959794;
+} */
+
+.social-icons {
+    height: 3rem;
+    width: 3rem;
+}
+
+#gh-icon {
+    margin-right: 1rem;
+}
+
+#contact-info-div {
+    padding:1rem 2rem 1rem 1rem;
+}
+
+.contact-p {
+    margin-bottom: 0px;
+    color: #e9322e;
+    font-size: 15pt;
+    font-weight: bolder;
+    line-height: 200%;
+    text-align: center;
+}
+
+.contact-card {
+    margin: 2rem 0rem 4rem;
+    background-color: #19171a;
+    /* border-color: #45433e; */
+}
+
+#contact-input-header {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 27pt;
+}
+
+.contact-input {
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+/* #download-btn {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+} */
+
+#submit-btn {
+    background-color:  rgb(92, 167, 92);
+    border-color: rgb(92, 167, 92);
+}
+
+.contact-form-label {
+    color: #959794;
+}
+
+.contact-form-input {
+    background-color: #45433e;
+    border-color: #45433e;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.contact-description {
+    text-align: center;
+    color: #959794;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+}
+
+#get-in-touch {
+    color: #e9322e;
 }

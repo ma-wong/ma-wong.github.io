@@ -12,7 +12,7 @@ class Contact extends Component {
                     <div className="col-md-3"></div>
                     <div className="col-md-6">
                         <hr />
-                        <h1 id="about-header">GET IN TOUCH</h1>
+                        <h1 id="about-header">CONTACT</h1>
                         <hr />
                     </div>
                     <div className="col-md-3"></div>
