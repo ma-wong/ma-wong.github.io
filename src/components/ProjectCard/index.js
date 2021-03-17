@@ -78,7 +78,7 @@ function ProjectCard() {
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
-                    <div id="carouselExampleIndicators-2" className="carousel slide col-md-7" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators-2" className="carousel carousel-dark slide col-md-7" data-bs-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" className="active"></li>
                             <li data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="1"></li>
@@ -134,7 +134,7 @@ function ProjectCard() {
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
-                    <div id="carouselExampleIndicators-3" className="carousel slide col-md-7" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators-3" className="carousel carousel-dark slide col-md-7" data-bs-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="0" className="active"></li>
                             <li data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="1"></li>
