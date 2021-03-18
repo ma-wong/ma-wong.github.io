@@ -1,77 +1,77 @@
 .social-icons {
-    height: 3rem;
-    width: 3rem;
-    margin: 0rem .5rem;
+  height: 3rem;
+  width: 3rem;
+  margin: 0rem .5rem;
 }
 
 .social-icons:hover {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 #contact-info-div {
-    padding:1rem 2rem 1rem 1rem;
+  padding:1rem 2rem 1rem 1rem;
 }
 
 .contact-p {
-    margin-bottom: 0px;
-    color: #e9322e;
-    font-size: 15pt;
-    font-weight: bolder;
-    text-align: center;
+  margin-bottom: 0px;
+  color: #e9322e;
+  font-size: 15pt;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .contact-card {
-    margin: 2rem 0rem 4rem;
-    background-color: #19171a;
+  margin: 2rem 0rem 4rem;
+  background-color: #19171a;
 }
 
 #contact-input-header {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 27pt;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 27pt;
 }
 
 .contact-input {
-    padding: 1rem 1rem 1rem 2rem;
+  padding: 1rem 1rem 1rem 2rem;
 }
 
 .contact-form-label {
-    color: #959794;
+  color: #959794;
 }
 
 .contact-form-input {
-    background-color: #45433e;
-    border-color: #45433e;
+  background-color: #45433e;
+  border-color: #45433e;
 }
 
 .icon-container {
-    text-align: center;
+  text-align: center;
 }
 
 .contact-description {
-    text-align: center;
-    color: #959794;
+  text-align: center;
+  color: #959794;
 }
 
 .contact-info {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 #get-in-touch {
-    color: #e9322e;
+  color:#2ee990;
 }
 
 .contact-icons {
-    height: 2rem;
-    width: 2rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 .contact-icons:hover {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 .pdf-dwnld {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 
@@ -108,33 +108,33 @@
   border-radius: 2px;
 }
 
-.shrink-border {
+.shrink-border1 {
   background-color: transparent;
-  color: #e9322e;
+  color: #2ee990;
 }
 
-.shrink-border:hover {
+.shrink-border1:hover {
   background-color: transparent;
   box-shadow: none;
   color: #e6e6e6;
 }
 
-.shrink-border::before {
+.shrink-border1::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #e9322e;
+  border: 2px solid #2ee990;
   transition: opacity 0.3s, border 0.3s;
 }
 
-.shrink-border:hover::before {
+.shrink-border1:hover::before {
   opacity: 0;
 }
 
-.shrink-border::after {
+.shrink-border1::after {
   content: "";
   position: absolute;
   top: 0;
@@ -148,7 +148,7 @@
   transition: transform 0.3s, opacity 0.3s;
 }
 
-.shrink-border:hover::after {
+.shrink-border1:hover::after {
   opacity: 1;
   transform: scaleX(1) scaleY(1);
 }

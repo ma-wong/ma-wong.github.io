@@ -65,7 +65,7 @@ function ContactCard() {
                             
                             {/* submit btn */}
                             <div className="d-grid gap-2 col-6 mx-auto">
-                                <button class="shrink-border submit-btn">SUBMIT</button>                              
+                                <button class="shrink-border1 submit-btn">SUBMIT</button>                              
                             </div>
                             
                         </form>
