@@ -191,16 +191,18 @@ function ContactCard() {
                             </div>
                         </div>
 
-                        <div className="row contact-info">
-                            <div className="col-md-2">
-                                <img className="contact-icons" src={downloadIcon}></img>
+                        <a className="pdf-dwnld" href={resumeDownload} download="Resume">
+                            <div className="row contact-info">
+                                
+                                <div className="col-md-2">
+                                    <img className="contact-icons" src={downloadIcon}></img>
+                                </div>
+                                <div className="col-md-9">
+                                    <p className="contact-p">Download Resume</p>
+                                </div>
+                                
                             </div>
-                            <div className="col-md-9">
-                                <p className="contact-p">Download Resume</p>
-                            </div>
-                        </div>
-
-                        
+                        </a>
 
                         <div className="icon-container">
                             <hr></hr>

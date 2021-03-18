@@ -129,6 +129,10 @@
     width: 2rem;
 }
 
+.pdf-dwnld {
+    text-decoration: none;
+}
+
 
 
 /* Button Links */
