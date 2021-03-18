@@ -1,74 +1,11 @@
-/* #contact-info-div {
-    background-color: #959794;
-}
-
-.contact-icons {
-    height: 4rem;
-    width: 4rem;
-}
-
-#gh-icon {
-    margin-right: 1rem;
-}
-
-.contact-info {
-    padding:3rem 1rem 0rem;
-}
-
-.contact-p {
-    margin-bottom: 0px;
-    color: #e9322e;
-    font-size: 14pt;
-}
-
-.contact-card {
-    margin: 2rem 0rem 4rem;
-    background-color: #19171a;
-    border-color: #45433e;
-}
-
-#contact-input-header {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    font-size: 27pt;
-}
-
-.contact-input {
-    padding: 1rem 2rem;
-}
-
-#download-btn {
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-}
-
-#submit-btn {
-    background-color:  rgb(92, 167, 92);
-    border-color: rgb(92, 167, 92);
-}
-
-#contact-input-header {
-    color: #ffffff;
-}
-
-.contact-form-label {
-    color: #959794;
-}
-
-.contact-form-input {
-    background-color: #45433e;
-} */
-
-/* #contact-info-div {
-    background-color: #959794;
-} */
-
 .social-icons {
     height: 3rem;
     width: 3rem;
     margin: 0rem .5rem;
+}
+
+.social-icons:hover {
+    opacity: 50%;
 }
 
 #contact-info-div {
@@ -127,6 +64,10 @@
 .contact-icons {
     height: 2rem;
     width: 2rem;
+}
+
+.contact-icons:hover {
+    opacity: 50%;
 }
 
 .pdf-dwnld {
