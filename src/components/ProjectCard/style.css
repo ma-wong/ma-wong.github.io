@@ -1,23 +1,53 @@
 
 .portfolio-card-title {
-    font-size: 20pt;
-    color: #ffffff;
+  font-size: 20pt;
+  color: #ffffff;
 }
 
 .project-img {
-    height: auto;
+  height: auto;
 }
 
 #portfolio-footer {
-    margin-top: 1rem;
-    color: #ffffff;
+  margin-top: 1rem;
+  color: #ffffff;
 }
 
 .project-card {
-    background-color: transparent;
-    color: #959794;
-    border-color: #45433e;
+  background-color: transparent;
+  color: #959794;
+  border-color: #45433e;
 }
+
+.project-tools {
+  font-size: 11pt;
+  color: #e9322e;
+  text-align: right;
+}
+
+.tools-row1 {
+  margin-bottom: 0px;
+}
+
+.project-icons {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.project-card-body1 {
+  text-align: right;
+}
+
+.project-description1 {
+  margin-top: 1.5rem;
+}
+
+.project-icons:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 
 /* Button Links */
 
