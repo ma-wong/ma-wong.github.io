@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Hexagons from "../components/Hexagons";
+import Hexagons from "../components/Hexagons/test.js";
 import Header from "../components/Header";
 
 class Home extends Component {
