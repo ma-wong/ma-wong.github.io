@@ -8,13 +8,17 @@ function Biography() {
     return(
         <div>
             <div className="row">
-                <div className="col-md-5 about-img-container">
-                    <img id="about-img" src={profileImg} class="img-thumbnail" alt="..."/>
+                <div className="col-md-6 about-img-container">
+                    {/* <img id="about-img" src={profileImg} class="img-thumbnail" alt="..."/> */}
+                    <div style={{backgroundImage: `url(${profileImg})`}} class='badge'>
+                        <div class='text'>Hello!</div>
+                    </div>
+
                 </div>
 
-                <div className="col-md-7">
+                <div className="col-md-6">
                     <p id="bio-text">
-                        <span className="tab"></span> Hello, my name is Morgan. I am a full-stack web developer currently living in Los Angeles, CA.
+                        <span className="tab"></span> My name is Morgan. I am a full-stack web developer currently living in Los Angeles, CA.
                         I am currently acting as a freelancer for independent clients and small businesses while also completing my major in Biopsychology.
                         I develop and design functional, aesthetic, and user-oriented websites as well as web applications by combining my artistic background with conventional web practices.
                         Formerly a professional photographer, I continue to express my creativity through my websites, traditional canvas art, and graphic design.
