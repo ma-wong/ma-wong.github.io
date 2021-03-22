@@ -8,7 +8,7 @@ function Biography() {
     return(
         <div>
             <div className="row">
-                <div className="col-md-6 about-img-container">
+                <div className="col-md-5 about-img-container">
                     {/* <img id="about-img" src={profileImg} class="img-thumbnail" alt="..."/> */}
                     <div style={{backgroundImage: `url(${profileImg})`}} class='badge'>
                         <div class='text'>Hello!</div>
@@ -16,7 +16,7 @@ function Biography() {
 
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-7">
                     <p id="bio-text">
                         <span className="tab"></span> My name is Morgan. I am a full-stack web developer currently living in Los Angeles, CA.
                         I am currently acting as a freelancer for independent clients and small businesses while also completing my major in Biopsychology.
