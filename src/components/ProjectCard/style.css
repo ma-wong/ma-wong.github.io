@@ -22,7 +22,7 @@
 .project-tools {
   font-size: 11pt;
   color: #e9322e;
-  text-align: right;
+  text-align: left;
 }
 
 .tools-row1 {
@@ -35,7 +35,7 @@
 }
 
 .project-card-body1 {
-  text-align: right;
+  text-align: left;
 }
 
 .project-description1 {
