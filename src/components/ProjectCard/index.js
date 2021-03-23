@@ -163,6 +163,29 @@ function ProjectCard() {
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
+                    <div className="col-md-5">
+                        <div className="card-body project-card-body">
+
+                            <h5 className="card-title portfolio-card-title">ICE BOX</h5>
+                            <p className="card-text">Icebox is an online sneaker encyclopedia.
+                                Icebox stores information about the collaborators, the release date, the production size range and the current price range for prospective buyers.
+                                On the search page, users can filter results by brand, collaborators, sizes, and more. This app is powered by javascript, express, and mysql.
+                            </p>
+
+                            <div className="row">
+                                <a href="https://github.com/ma-wong/icebox" target="_blank" className="col-md-6">
+                                    <button class="shrink-border project-btns">Github Repo</button>
+                                </a>
+                                <a href="https://infinite-castle-57105.herokuapp.com/" className="col-md-6" target="_blank">
+                                    <button class="shrink-border project-btns">Deployed App</button>
+                                </a>
+                                
+                            </div>
+                    
+                            <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p>
+                        </div>
+                    </div>
+                    
                     <div id="carouselExampleIndicators-2" className="carousel carousel-dark slide col-md-7" data-bs-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" className="active"></li>
@@ -190,7 +213,7 @@ function ProjectCard() {
                         </a>
                     </div>
                     
-                    <div className="col-md-5">
+                    {/* <div className="col-md-5">
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">ICE BOX</h5>
@@ -211,7 +234,7 @@ function ProjectCard() {
                     
                             <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

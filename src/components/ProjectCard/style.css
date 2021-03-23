@@ -17,7 +17,9 @@
 .project-card {
   background-color: transparent;
   color: #959794;
-  border-color: #45433e;
+  border-top: solid #45433e;
+  border-bottom: solid #45433e;
+  border-width: 1px;
 }
 
 .project-tools {
