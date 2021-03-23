@@ -2,6 +2,7 @@
 .portfolio-card-title {
   font-size: 20pt;
   color: #ffffff;
+  text-align: center;
 }
 
 .project-img {
@@ -21,7 +22,7 @@
 
 .project-tools {
   font-size: 11pt;
-  color: #e9322e;
+  color: #959794;
   text-align: left;
 }
 

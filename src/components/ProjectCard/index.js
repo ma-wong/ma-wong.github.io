@@ -133,14 +133,14 @@ function ProjectCard() {
                             </div>
 
                             <div className="row">
-                                <div className="col-md-8"></div>
+                                {/* <div className="col-md-8"></div> */}
                                 <a className="col-md-2" href="https://github.com/ma-wong" target="_blank" rel="noopener noreferrer">
                                     <img  className="project-icons" src={githubIcon}></img>
                                 </a>
                                 <a className="col-md-2" href="https://linkedin.com/in/morgan-wong-95b305207" target="_blank" rel="noopener noreferrer">
                                     <img className="project-icons" src={deployedIcon}></img>
                                 </a>
-                                {/* <div className="col-md-8"></div> */}
+                                <div className="col-md-8"></div>
 
                             </div>
 
