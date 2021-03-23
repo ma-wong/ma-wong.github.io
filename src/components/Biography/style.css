@@ -20,7 +20,8 @@
     font-size: 17pt;
     font-weight: lighter;
     text-decoration: underline;
-    color: #e9322e;
+    /* color: #e9322e; */
+    color: #2ee990;
 }
 
 .skills-list {
@@ -28,7 +29,9 @@
     line-height: 1.7;
     padding-left: 1rem;
     margin-left: 2rem;
-    color: #e9322e;
+    /* color: #e9322e; */
+    color: #2ee990;
+    /* list-style-type: circle; */
 }
 
 .tab {
