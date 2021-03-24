@@ -42,6 +42,14 @@ function ContactCard() {
                                     <input type="text" className="form-control contact-form-input" id="validationDefault01" required />
                                 </div>
 
+                                {/* <div className="col-md-6 mb-3 hello">
+                                    <label for="validationDefault01" className="form-label contact-form-label">First name</label>
+                                    <input type="text" className="form-control contact-form-input effect-7" id="validationDefault01" required />
+                                    <span className="focus-border">
+                                        <i></i>
+                                    </span>
+                                </div> */}
+
                                 <div className="col-md-6 mb-3">
                                     <label for="validationDefault02" className="form-label contact-form-label">Last name</label>
                                     <input type="text" className="form-control contact-form-input" id="validationDefault02" required />
