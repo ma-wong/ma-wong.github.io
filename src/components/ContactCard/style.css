@@ -12,14 +12,13 @@
   padding:1rem 2rem 1rem 1rem;
 }
 
-.contact-p {
+/* .contact-p {
   margin-bottom: 0px;
-  /* color: #e9322e; */
   color: #ffffff;
   font-size: 15pt;
   font-weight: bolder;
   text-align: center;
-}
+} */
 
 .contact-card {
   margin: 2rem 0rem 4rem;
@@ -225,3 +224,45 @@ input[type="text"] {
 }
 
  */
+
+.contact-p {
+  margin-bottom: 0px;
+  color: #ffffff;
+  font-size: 15pt;
+  font-weight: bolder;
+  text-align: center;
+
+  display: block;
+  padding: 5px 0;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #2ee990, #2ee990 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-p:before {
+  display: block;
+  content: "";
+  width: 0;
+  height: 3px;
+  bottom: 5px;
+  left: 0;
+  bottom: -3px;
+  z-index: 0;
+  position: absolute;
+  background: #2ee990;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-p:hover {
+  background-position: 0%;
+}
+
+.contact-p:hover:before {
+  width: 100%;
+}
