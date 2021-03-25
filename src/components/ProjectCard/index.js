@@ -108,14 +108,17 @@ function ProjectCard() {
                     </div>
                     
                     <div className="col-md-5">
-                        <div className="card-body project-card-body1">
+                        <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Snippets</h5>
-                            <p className="card-text project-description1">
-                                Snippets is an online application that allowd users to store snippets of code in a single organized library
-                                so that they can re-use boiler plate sections of their code in future projects. It also allows the user to search
-                                for keywords to return boiler plate code snippets that others have submitted publicaly.
-                            </p>
+                            
+                            <div className="corner-frame">
+                                <p className="card-text project-description">
+                                    Snippets is an online application that allowd users to store snippets of code in a single organized library
+                                    so that they can re-use boiler plate sections of their code in future projects. It also allows the user to search
+                                    for keywords to return boiler plate code snippets that others have submitted publicaly.
+                                </p>
+                            </div>
 
                             <div className="project-tools">
                                 <div className="row">
@@ -132,8 +135,8 @@ function ProjectCard() {
                                 </div>
                             </div>
 
-                            <div className="row">
-                                {/* <div className="col-md-8"></div> */}
+                            {/* <div className="row">
+                                <div className="col-md-8"></div>
                                 <a className="col-md-2" href="https://github.com/ma-wong" target="_blank" rel="noopener noreferrer">
                                     <img  className="project-icons" src={githubIcon}></img>
                                 </a>
@@ -142,9 +145,9 @@ function ProjectCard() {
                                 </a>
                                 <div className="col-md-8"></div>
 
-                            </div>
+                            </div> */}
 
-                            {/* <div className="row">
+                            <div className="row">
                                 <a href="https://github.com/ma-wong/project-3" target="_blank" className="col-md-6">
                                     <button class="shrink-border project-btns">Github Repo</button>
                                 </a>
@@ -153,7 +156,7 @@ function ProjectCard() {
                                 </a>                               
                             </div>
                                              
-                            <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p> */}
+                            {/* <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p> */}
                         </div>
                     </div>
                 </div>
@@ -167,10 +170,28 @@ function ProjectCard() {
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">ICE BOX</h5>
-                            <p className="card-text">Icebox is an online sneaker encyclopedia.
-                                Icebox stores information about the collaborators, the release date, the production size range and the current price range for prospective buyers.
-                                On the search page, users can filter results by brand, collaborators, sizes, and more. This app is powered by javascript, express, and mysql.
-                            </p>
+
+                            <div className="corner-frame">
+                                <p className="card-text project-description">Icebox is an online sneaker encyclopedia.
+                                    Icebox stores information about the collaborators, the release date, the production size range and the current price range for prospective buyers.
+                                    On the search page, users can filter results by brand, collaborators, sizes, and more. This app is powered by javascript, express, and mysql.
+                                </p>
+                            </div>
+
+                            <div className="project-tools">
+                                <div className="row">
+                                    <p className="col-md-3 tools-row1">Javascript</p>
+                                    <p className="col-md-3 tools-row1">Node.js</p>
+                                    <p className="col-md-3 tools-row1">Express</p>
+                                    <p className="col-md-3 tools-row1">MySQL</p>
+                                </div>
+                                <div className="row">
+                                    <p className="col-md-3">HTML/CSS</p>
+                                    <p className="col-md-3">Bootstrap</p>
+                                    <p className="col-md-3"></p>
+                                    <p className="col-md-3"></p>
+                                </div>
+                            </div>
 
                             <div className="row">
                                 <a href="https://github.com/ma-wong/icebox" target="_blank" className="col-md-6">
@@ -182,7 +203,7 @@ function ProjectCard() {
                                 
                             </div>
                     
-                            <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p>
+                            {/* <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p> */}
                         </div>
                     </div>
                     
@@ -212,29 +233,6 @@ function ProjectCard() {
                             <span className="visually-hidden">Next</span>
                         </a>
                     </div>
-                    
-                    {/* <div className="col-md-5">
-                        <div className="card-body project-card-body">
-
-                            <h5 className="card-title portfolio-card-title">ICE BOX</h5>
-                            <p className="card-text">Icebox is an online sneaker encyclopedia.
-                                Icebox stores information about the collaborators, the release date, the production size range and the current price range for prospective buyers.
-                                On the search page, users can filter results by brand, collaborators, sizes, and more. This app is powered by javascript, express, and mysql.
-                            </p>
-
-                            <div className="row">
-                                <a href="https://github.com/ma-wong/icebox" target="_blank" className="col-md-6">
-                                    <button class="shrink-border project-btns">Github Repo</button>
-                                </a>
-                                <a href="https://infinite-castle-57105.herokuapp.com/" className="col-md-6" target="_blank">
-                                    <button class="shrink-border project-btns">Deployed App</button>
-                                </a>
-                                
-                            </div>
-                    
-                            <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p>
-                        </div>
-                    </div> */}
                 </div>
             </div>
 
@@ -273,10 +271,27 @@ function ProjectCard() {
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Musicology</h5>
-                            <p className="card-text">
-                                Musicology is a clean interface tool for music fans who want to easily review an artists’ discography, social media and upcoming events.
-                                It is also a resource for those fans who are seeking new music by providing similar artist suggestions.
-                            </p>
+                            <div className="corner-frame musicology">
+                                <p className="card-text project-description">
+                                    Musicology is a clean interface tool for music fans who want to easily review an artists’ discography, social media and upcoming events.
+                                    It is also a resource for those fans who are seeking new music by providing similar artist suggestions.
+                                </p>
+                            </div>
+
+                            <div className="project-tools">
+                                <div className="row">
+                                    <p className="col-md-3 tools-row1">Javascript</p>
+                                    <p className="col-md-3 tools-row1">HTML/CSS</p>
+                                    <p className="col-md-3 tools-row1">jQuery</p>
+                                    <p className="col-md-3 tools-row1">Spotify API</p>
+                                </div>
+                                <div className="row">
+                                    <p className="col-md-3">Taste Dive API</p>
+                                    <p className="col-md-3">Bands In Town API</p>
+                                    <p className="col-md-3">Musixmatch API</p>
+                                    <p className="col-md-3">Moment.js</p>
+                                </div>
+                            </div>
 
                             <div className="row">
                                 <a href="https://github.com/mfitzwinick/binary-babes" target="_blank" className="col-md-6">
@@ -287,7 +302,7 @@ function ProjectCard() {
                                 </a> */}
                             </div>
                     
-                            <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p>
+                            {/* <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p> */}
                         </div>
                     </div>
                 </div>

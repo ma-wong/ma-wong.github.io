@@ -9,10 +9,10 @@
   height: auto;
 }
 
-#portfolio-footer {
+/* #portfolio-footer {
   margin-top: 1rem;
   color: #ffffff;
-}
+} */
 
 .project-card {
   background-color: transparent;
@@ -26,6 +26,7 @@
   font-size: 11pt;
   color: #959794;
   text-align: left;
+  margin-top: 1rem;
 }
 
 .tools-row1 {
@@ -37,12 +38,16 @@
   width: 2.5rem;
 }
 
-.project-card-body1 {
+.project-card-body {
   text-align: left;
 }
 
-.project-description1 {
-  margin-top: 1.5rem;
+.project-description {
+  padding: 1rem;
+}
+
+.project-description:hover {
+  color: #ffffff;
 }
 
 .project-icons:hover {
@@ -86,7 +91,7 @@
 
 .shrink-border {
   background-color: transparent;
-  color: #e9322e;
+  color: #2ee990;
 }
 
 .shrink-border:hover {
@@ -102,7 +107,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  border: 1px solid #e9322e;
+  border: 1px solid #2ee990;
   transition: opacity 0.3s, border 0.3s;
 }
 
@@ -127,4 +132,43 @@
 .shrink-border:hover::after {
   opacity: 1;
   transform: scaleX(1) scaleY(1);
+}
+
+
+/* Messing with corner frame */
+
+.corner-frame {
+  position:relative;
+  width:433px;
+  height:180px;
+}
+
+.corner-frame:before, .corner-frame:after, .corner-frame>:first-child:before, .corner-frame>:first-child:after {
+  position:absolute;
+  width:20px; height: 20px;
+  border-color: #2ee990; /* or whatever colour */
+  border-style:solid; /* or whatever style */
+  content: ' ';
+}
+
+.corner-frame:before {
+  top:0;left:0;border-width: 1px 0 0 1px
+}
+
+.corner-frame:after {
+  top:0;right:0;border-width: 1px 1px 0 0
+}
+
+.corner-frame>:first-child:before {
+  bottom:0;right:0;border-width: 0 1px 1px 0
+}
+
+.corner-frame>:first-child:after {
+  bottom:0;left:0;border-width: 0 0 1px 1px
+}
+
+.musicology{
+  position:relative;
+  width:433px;
+  height:150px;
 }
