@@ -6,7 +6,7 @@ function Header() {
     return(
         <header className="home-header">
             <p id="home-title">Hello, my name is</p>
-            <p id="home-name">Morgan Wong</p>
+            <p id="home-name">MORGAN WONG</p>
             <p id="home-description">
                 Full-stack web developer / Designer
             </p>

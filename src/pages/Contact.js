@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ContactCard from "../components/ContactCard";
-// import Jumbotron from "../components/Jumbotron";
+import "../pageStyles/Contact.css";
 
 class Contact extends Component {
     
@@ -8,11 +8,11 @@ class Contact extends Component {
         return (
             <div className="container">
 
-                <div className="row about-header-row">
+                <div className="row contact-header-row">
                     <div className="col-md-3"></div>
                     <div className="col-md-6">
                         <hr />
-                        <h1 id="about-header">CONTACT</h1>
+                        <h1 id="contact-header">CONTACT</h1>
                         <hr />
                     </div>
                     <div className="col-md-3"></div>
