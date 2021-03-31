@@ -91,7 +91,7 @@ function Nav() {
 
                     {/* Nav Buttonn */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"></span>
                     </button>
 
                     {/* Off Canvas nav content */}
