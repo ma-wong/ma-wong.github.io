@@ -16,7 +16,7 @@ import girls from "./img/photography/girls.jpg";
 import stage from "./img/photography/stage.jpg";
 import sunset from "./img/photography/sunset.jpg";
 
-import "./test.css";
+import "./test2.css";
 
 function Hexagons() {
     return (
@@ -24,12 +24,10 @@ function Hexagons() {
         <div className="grid">
             <ul id="hexGrid">
 
-
-                {/* Test Photos */}
                 <li className="hex">
                     <div className="hexIn">
-                    <a id="grayscale" className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${snails})` }}></div>
+                    <a className="hexLink" href="#">
+                        <div className='img' style={{ backgroundImage: `url(${mySqlLogo})` }}></div>
                         <h1 id="demo1">MySql</h1>
                         {/* <p id="demo2">Open-source relational database management system.</p> */}
                     </a>
@@ -38,10 +36,28 @@ function Hexagons() {
 
                 <li className="hex">
                     <div className="hexIn">
+                    <a id="grayscale" className="hexLink" href="#">
+                        <div className='img dark-hex'></div>
+                        <h1 id="demo1"></h1>
+                    </a>
+                    </div>
+                </li>
+
+                <li className="hex">
+                    <div className="hexIn">
                     <a className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${mySqlLogo})` }}></div>
-                        <h1 id="demo1">MySql</h1>
-                        {/* <p id="demo2">Open-source relational database management system.</p> */}
+                        <div className='img' style={{ backgroundImage: `url(${mongoLogo})` }}></div>
+                        <h1 id="demo1">Mongo DB</h1>
+                        {/* <p id="demo2">A cross-platform document-oriented database program</p> */}
+                    </a>
+                    </div>
+                </li>
+
+                <li className="hex">
+                    <div className="hexIn">
+                    <a id="grayscale" className="hexLink" href="#">
+                        <div className='img dark-hex'></div>
+                        <h1 id="demo1"></h1>
                     </a>
                     </div>
                 </li>
@@ -58,10 +74,20 @@ function Hexagons() {
 
                 <li className="hex">
                     <div className="hexIn">
-                    <a id="grayscale" className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${carousel})` }}></div>
-                        <h1 id="demo1">MySql</h1>
-                        {/* <p id="demo2">Open-source relational database management system.</p> */}
+                    <a className="hexLink" href="#">
+                            <div className='img' style={{ backgroundImage: `url(${jsLogo})` }}></div>
+                        <h1 id="demo1">Javascript</h1>
+                        {/* <p id="demo2">High-level programming language that conforms to the ECMAScript specification.</p> */}
+                    </a>
+                    </div>
+                </li>
+
+                <li className="hex">
+                    <div className="hexIn">
+                    <a className="hexLink" href="#">
+                        <div className='img' style={{ backgroundImage: `url(${htmlLogo})` }}></div>
+                        <h1 id="demo1">HTML</h1>
+                        {/* <p id="demo2">Standard language for documents designed to be displayed in a web browser.</p> */}
                     </a>
                     </div>
                 </li>
@@ -79,57 +105,6 @@ function Hexagons() {
                 <li className="hex">
                     <div className="hexIn">
                     <a className="hexLink" href="#">
-                            <div className='img' style={{ backgroundImage: `url(${jsLogo})` }}></div>
-                        <h1 id="demo1">Javascript</h1>
-                        {/* <p id="demo2">High-level programming language that conforms to the ECMAScript specification.</p> */}
-                    </a>
-                    </div>
-                </li>
-
-                <li className="hex">
-                    <div className="hexIn">
-                    <a id="grayscale" className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${girls})` }}></div>
-                        <h1 id="demo1">MySql</h1>
-                        {/* <p id="demo2">Open-source relational database management system.</p> */}
-                    </a>
-                    </div>
-                </li>
-
-                <li className="hex">
-                    <div className="hexIn">
-                    <a className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${htmlLogo})` }}></div>
-                        <h1 id="demo1">HTML</h1>
-                        {/* <p id="demo2">Standard language for documents designed to be displayed in a web browser.</p> */}
-                    </a>
-                    </div>
-                </li>
-
-                <li className="hex">
-                    <div className="hexIn">
-                    <a id="grayscale" className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${stage})` }}></div>
-                        <h1 id="demo1">MySql</h1>
-                        {/* <p id="demo2">Open-source relational database management system.</p> */}
-                    </a>
-                    </div>
-                </li>
-
-                <li className="hex">
-                    <div className="hexIn">
-                    <a id="grayscale" className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${sunset})` }}></div>
-                        <h1 id="demo1">MySql</h1>
-                        {/* <p id="demo2">Open-source relational database management system.</p> */}
-                    </a>
-                    </div>
-                </li>
-
-                
-                <li className="hex">
-                    <div className="hexIn">
-                    <a className="hexLink" href="#">
                         <div className='img' style={{ backgroundImage: `url(${cssLogo})` }} ></div>
                         <h1 id="demo1">CSS</h1>
                         {/* <p id="demo2">Style sheet language used for describing the presentation of a document</p> */}
@@ -140,9 +115,8 @@ function Hexagons() {
                 <li className="hex">
                     <div className="hexIn">
                     <a id="grayscale" className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${gator})` }}></div>
-                        <h1 id="demo1">MySql</h1>
-                        {/* <p id="demo2">Open-source relational database management system.</p> */}
+                        <div className='img dark-hex'></div>
+                        <h1 id="demo1"></h1>
                     </a>
                     </div>
                 </li>
@@ -150,29 +124,39 @@ function Hexagons() {
                 <li className="hex">
                     <div className="hexIn">
                     <a id="grayscale" className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${caterpillar})` }}></div>
-                        <h1 id="demo1">MySql</h1>
-                        {/* <p id="demo2">Open-source relational database management system.</p> */}
+                        <div className='img dark-hex'></div>
+                        <h1 id="demo1"></h1>
                     </a>
                     </div>
                 </li>
 
                 <li className="hex">
                     <div className="hexIn">
-                    <a className="hexLink" href="#">
-                        <div className='img' style={{ backgroundImage: `url(${mongoLogo})` }}></div>
-                        <h1 id="demo1">Mongo DB</h1>
-                        {/* <p id="demo2">A cross-platform document-oriented database program</p> */}
+                    <a id="grayscale" className="hexLink" href="#">
+                        <div className='img dark-hex'></div>
+                        <h1 id="demo1"></h1>
                     </a>
                     </div>
                 </li>
-                
-                
-                
 
+                <li className="hex">
+                    <div className="hexIn">
+                    <a id="grayscale" className="hexLink" href="#">
+                        <div className='img dark-hex'></div>
+                        <h1 id="demo1"></h1>
+                    </a>
+                    </div>
+                </li>
 
+                <li className="hex">
+                    <div className="hexIn">
+                    <a id="grayscale" className="hexLink" href="#">
+                        <div className='img dark-hex'></div>
+                        <h1 id="demo1"></h1>
+                    </a>
+                    </div>
+                </li>
 
-                
 
             </ul>
             
@@ -180,4 +164,4 @@ function Hexagons() {
     )
 }
 
-// export default Hexagons;
+export default Hexagons;

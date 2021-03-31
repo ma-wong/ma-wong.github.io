@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Hexagons from "../components/Hexagons/test.js";
+import Hexagons from "../components/Hexagons/test2.js";
 import Header from "../components/Header";
 
 class Home extends Component {
@@ -10,9 +10,7 @@ class Home extends Component {
                 <div className="container">
                     
                     <div className="row">
-                        {/* <div className="col-md-2"></div> */}
                         <Header />
-                        {/* <div className="col-md-2"></div> */}
                     </div>
 
                     <Hexagons />
