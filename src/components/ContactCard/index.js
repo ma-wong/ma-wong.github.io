@@ -80,8 +80,6 @@ function ContactCard() {
 
                     </div>
 
-
-
                     {/* Contact Info */}
                     <div id="contact-info-div" className="col-md-5">
                     
