@@ -100,17 +100,21 @@ function Nav() {
                             <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div className="offcanvas-body">
-                            <ul>
+                            <div className="row">
                                 <Link to={"/about"}>
-                                    <li className="nav-link">ABOUT</li>
+                                    <p className="offcanvas-nav-link">ABOUT</p>
                                 </Link>
+                            </div>
+                            <div className="row">
                                 <Link to={"/portfolio"}>
-                                    <li className="nav-link">PORTFOLIO</li>
+                                    <p className="offcanvas-nav-link">PORTFOLIO</p>
                                 </Link>
+                            <div className="row">
+                            </div>
                                 <Link to={"/contact"}>
-                                    <li className="nav-link">CONTACT</li>
+                                    <p className="offcanvas-nav-link">CONTACT</p>
                                 </Link>
-                            </ul>
+                            </div>
                         </div>
                     </div>
 

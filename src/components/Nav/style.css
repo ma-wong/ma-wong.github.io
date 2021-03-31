@@ -81,3 +81,23 @@ button.navbar-toggler {
     color: #2ee990;
     border-color: #2ee990;
 }
+
+.offcanvas {
+    background-color: #19171a;
+}
+
+.offcanvas-nav-link {
+    font-size: 15pt;
+    color: #959794;
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.btn-close {
+    background-color: #2ee990;
+}
