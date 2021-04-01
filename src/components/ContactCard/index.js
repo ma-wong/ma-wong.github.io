@@ -14,7 +14,7 @@ function ContactCard() {
     return (
 
         <div>
-            <div className="row">
+            {/* <div className="row">
                 <div className="col-md-2"></div>
                 <div className="col-md-8 contact-description">
                     <h2 id="get-in-touch">Get in touch!</h2>
@@ -24,64 +24,24 @@ function ContactCard() {
                     </h5>
                 </div>
                 <div className="col-md-2"></div>
-            </div>
+            </div> */}
         
             <div className="card contact-card">
                 
                 <div className="row">
 
-                    {/* Contact Form */}
-                    <div className="col-md-7 contact-input">
-                        
-                        <form>
-
-                            {/* name input */}
-                            <div className="row">
-                                <div className="col-md-6 mb-3">
-                                    <label for="validationDefault01" className="form-label contact-form-label">First name</label>
-                                    <input type="text" className="form-control contact-form-input" id="validationDefault01" required />
-                                </div>
-
-                                {/* <div className="col-md-6 mb-3 hello">
-                                    <label for="validationDefault01" className="form-label contact-form-label">First name</label>
-                                    <input type="text" className="form-control contact-form-input effect-7" id="validationDefault01" required />
-                                    <span className="focus-border">
-                                        <i></i>
-                                    </span>
-                                </div> */}
-
-                                <div className="col-md-6 mb-3">
-                                    <label for="validationDefault02" className="form-label contact-form-label">Last name</label>
-                                    <input type="text" className="form-control contact-form-input" id="validationDefault02" required />
-                                </div>
-                            </div>
-                            {/* email input */}
-                            <div className="row">
-                                <div className="col-md-12 mb-3">
-                                    <label for="validationDefault03" className="form-label contact-form-label">Email address</label>
-                                    <input type="email" className="form-control contact-form-input" id="validationDefault03" placeholder="name@example.com" required />
-                                </div>
-                            </div>
-
-                            {/* comment input */}
-                            <div className="row">
-                                <div className="col-md-12 mb-3">
-                                    <label for="validationDefault05" className="form-label contact-form-label">Comments</label>
-                                    <textarea type="text" className="form-control contact-form-input" id="validationDefault05" rows="8" required />
-                                </div>
-                            </div>
-                            
-                            {/* submit btn */}
-                            <div className="d-grid gap-2 col-6 mx-auto">
-                                <button class="shrink-border1 submit-btn">SUBMIT</button>                              
-                            </div>
-                            
-                        </form>
-
-                    </div>
+                    
 
                     {/* Contact Info */}
-                    <div id="contact-info-div" className="col-md-5">
+                    <div id="contact-info-div" className="col-md-6">
+
+                        <div className="contact-description">
+                            <h2 id="get-in-touch"><span id="get-in">Get i</span>n touch!</h2>
+                            <p>
+                                While I'm currently interested in freelance work, my inbox is open to ALL new opportunities.
+                                Feel free to use the form for questions, requests, or just to say hi!
+                            </p>
+                        </div>
                     
                         <div className="row contact-info">
                             <div className="col-md-2">
@@ -132,6 +92,56 @@ function ContactCard() {
                                 <img className="social-icons" src={linkedInIcon}></img>
                             </a>
                         </div>
+
+                    </div>
+
+                    {/* Contact Form */}
+                    <div className="col-md-6 contact-input">
+                        
+                        <form>
+
+                            {/* name input */}
+                            <div className="row">
+                                <div className="col-md-6 mb-3">
+                                    <label for="validationDefault01" className="form-label contact-form-label">First name</label>
+                                    <input type="text" className="form-control contact-form-input" id="validationDefault01" required />
+                                </div>
+
+                                {/* <div className="col-md-6 mb-3 hello">
+                                    <label for="validationDefault01" className="form-label contact-form-label">First name</label>
+                                    <input type="text" className="form-control contact-form-input effect-7" id="validationDefault01" required />
+                                    <span className="focus-border">
+                                        <i></i>
+                                    </span>
+                                </div> */}
+
+                                <div className="col-md-6 mb-3">
+                                    <label for="validationDefault02" className="form-label contact-form-label">Last name</label>
+                                    <input type="text" className="form-control contact-form-input" id="validationDefault02" required />
+                                </div>
+                            </div>
+                            {/* email input */}
+                            <div className="row">
+                                <div className="col-md-12 mb-3">
+                                    <label for="validationDefault03" className="form-label contact-form-label">Email address</label>
+                                    <input type="email" className="form-control contact-form-input" id="validationDefault03" placeholder="name@example.com" required />
+                                </div>
+                            </div>
+
+                            {/* comment input */}
+                            <div className="row">
+                                <div className="col-md-12 mb-3">
+                                    <label for="validationDefault05" className="form-label contact-form-label">Comments</label>
+                                    <textarea type="text" className="form-control contact-form-input" id="validationDefault05" rows="8" required />
+                                </div>
+                            </div>
+                            
+                            {/* submit btn */}
+                            <div className="d-grid gap-2 col-6 mx-auto">
+                                <button class="shrink-border1 submit-btn">SUBMIT</button>                              
+                            </div>
+                            
+                        </form>
 
                     </div>
 

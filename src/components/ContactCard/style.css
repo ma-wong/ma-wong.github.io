@@ -2,23 +2,19 @@
   height: 3rem;
   width: 3rem;
   margin: 0rem .5rem;
+
 }
 
 .social-icons:hover {
-  opacity: 50%;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  
 }
 
 #contact-info-div {
-  padding:2rem;
+  padding: 1rem 2rem;
 }
-
-/* .contact-p {
-  margin-bottom: 0px;
-  color: #ffffff;
-  font-size: 15pt;
-  font-weight: bolder;
-  text-align: center;
-} */
 
 .contact-card {
   margin: 2rem 0rem 4rem;
@@ -32,7 +28,7 @@
 }
 
 .contact-input {
-  padding: 2rem;
+  padding: 1rem 2rem;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.603), 0 6px 20px 0 rgba(0, 0, 0, 0.596); */
   box-shadow: 0 4px 8px 0 rgba(149, 151, 148, 0.5), 0 6px 20px 0 rgba(149, 151, 148, 0.493);
 }
@@ -42,12 +38,15 @@
 }
 
 .contact-form-input {
-  background-color: #45433e;
-  border-color: #45433e;
+  background-color: transparent;
+  border-color: #959794;
+  border-bottom-color: #959794;
 }
 
 .contact-form-input:focus {
-  background-color: #45433e;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #2ee990;
 }
 
 .icon-container {
@@ -57,14 +56,24 @@
 .contact-description {
   text-align: center;
   color: #959794;
+  margin: 0rem 2rem 2rem;
+  font-size: 14pt;
 }
 
 .contact-info {
   margin-bottom: 2rem;
+  margin-right: 2rem;
 }
 
 #get-in-touch {
-  color:#2ee990;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+#get-in {
+  border-bottom-style: solid;
+  border-bottom-color: #2ee990;
+  border-bottom-width: 2px;
 }
 
 .contact-icons {
@@ -82,7 +91,7 @@
 
 
 
-/* Button Links */
+/* Button links ---------------------------- */
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 *, *::after, *::before {
@@ -159,77 +168,9 @@
   transform: scaleX(1) scaleY(1);
 }
 
-/* testing */
-
-/* :focus {
-  outline: none;
-}
-
-.hello {
-  float: left;
-  position: relative;
-}
-
-input[type="text"] {
-  width: 100%;
-  box-sizing: border-box;
-  letter-spacing: 1px;
-}
-
-.effect-7 {
-  border: 1px solid #ccc;
-  padding: 7px 14px 9px;
-  transition: 0.4s;
-}
-
-.effect-7 ~ .focus-border:before,
-.effect-7 ~ .focus-border:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 0;
-  height: 2px;
-  background-color: #3399ff;
-  transition: 0.4s;
-}
-.effect-7 ~ .focus-border:after {
-  top: auto;
-  bottom: 0;
-}
-.effect-7 ~ .focus-border i:before,
-.effect-7 ~ .focus-border i:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 2px;
-  height: 0;
-  background-color: #3399ff;
-  transition: 0.6s;
-}
-.effect-7 ~ .focus-border i:after {
-  left: auto;
-  right: 0;
-}
-.effect-7:focus ~ .focus-border:before,
-.effect-7:focus ~ .focus-border:after {
-  left: 0;
-  width: 100%;
-  transition: 0.4s;
-}
-.effect-7:focus ~ .focus-border i:before,
-.effect-7:focus ~ .focus-border i:after {
-  top: 0;
-  height: 100%;
-  transition: 0.6s;
-}
-
- */
-
+/* contact Info */
 .contact-p {
   margin-bottom: 0px;
-  color: #ffffff;
   font-size: 15pt;
   font-weight: bolder;
   text-align: center;
@@ -241,7 +182,7 @@ input[type="text"] {
   z-index: 1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, #2ee990, #2ee990 50%, #fff 50%);
+  background-image: linear-gradient(to right, #2ee990, #2ee990 50%, #ffffff 50%);
   background-size: 200% 100%;
   background-position: -100%;
   transition: all 0.3s ease-in-out;
