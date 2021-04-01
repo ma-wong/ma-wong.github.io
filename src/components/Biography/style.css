@@ -9,6 +9,7 @@
 #bio-text {
     font-size: 15pt;
     line-height: 1.7;
+    /* color: #959794; */
     color: #959794;
 }
 
@@ -19,9 +20,8 @@
 #skills-header {
     font-size: 17pt;
     font-weight: lighter;
-    text-decoration: underline;
-    /* color: #e9322e; */
-    color: #2ee990;
+    /* text-decoration: underline; */
+    color: #ffffff;
 }
 
 .skills-list {
@@ -29,9 +29,16 @@
     line-height: 1.7;
     padding-left: 1rem;
     margin-left: 2rem;
-    /* color: #e9322e; */
-    color: #2ee990;
+    /* color: #2ee990; */
     /* list-style-type: circle; */
+}
+
+.skills-div {
+    color: #959794;
+    border-style: solid;
+    border-color: #2ee990;
+    border-width: 1px;
+    padding: 1rem;
 }
 
 .tab {
@@ -79,10 +86,11 @@
     margin-top: -5rem;
     margin-left: -5rem;
     font-size: 2rem;
-    font-family: Raleway, sans-serif;
+    font-family: 'Poiret One', cursive;
     text-align: center;
     color: #fff;
     border-radius: 50%;
+    /* background: #959794; */
     background: #2ee990;
     transform: rotate(-180deg) translate(-10rem) rotate(180deg);
     box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.5);

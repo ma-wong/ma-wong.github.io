@@ -31,30 +31,39 @@ function Biography() {
 
             <div className="row">
                 <div className="col-md-5"></div>
-                <h6 id="skills-header" className="col-md-1">SKILLS:</h6>
-                <div className="col-md-6">
+
+                <div className="col-md-7 skills-div">
                     <div className="row">
-                        <ul className="col-md-3 skills-list">
-                            <li>Javascript</li>
-                            <li>React.js</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                        </ul>
-                        <ul className="col-md-3 skills-list">
-                            <li>jQuery</li>
-                            <li>Bootstrap</li>
-                            <li>Node.js</li>
-                            <li>MySQL</li>
-                        </ul>
-                        <ul className="col-md-3 skills-list">
-                            <li>MongoDB</li>
-                            <li>Express.js</li>
-                            <li>Photoshop</li>
-                            <li>Procreate</li>
-            
-                        </ul>
+                        <h6 id="skills-header" className="col-md-2">SKILLS:</h6>
+                        <div className="col-md-10">
+                            <div className="row">
+                                <ul className="col-md-3 skills-list">
+                                    <li>Javascript</li>
+                                    <li>React.js</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                </ul>
+                                <ul className="col-md-3 skills-list">
+                                    <li>jQuery</li>
+                                    <li>Bootstrap</li>
+                                    <li>Node.js</li>
+                                    <li>MySQL</li>
+                                </ul>
+                                <ul className="col-md-3 skills-list">
+                                    <li>MongoDB</li>
+                                    <li>Express.js</li>
+                                    <li>Photoshop</li>
+                                    <li>Procreate</li>
+                    
+                                </ul>
+                            </div>
+                        </div>
+
                     </div>
+                    
+
                 </div>
+                
 
             </div>
 
