@@ -5,9 +5,10 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
-import Splash from "./pages/Splash";
+// import Splash from "./pages/Splash";
 // import Footer from"./components/Footer";
 import "./style.css";
+import Splash2 from "./pages/Splash2";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Splash} />
+          <Route exact path="/" component={Splash2} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
