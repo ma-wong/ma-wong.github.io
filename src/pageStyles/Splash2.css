@@ -10,12 +10,18 @@ canvas {
     background-color: transparent;
 }
 
-.text {
+.splash-overlay {
     /* position: absolute; */
     /* top: 50%; */
     /* right: 50%; */
     /* transform: translate(50%, -50%); */
     /* max-width: 75%; */
+
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
 
     background: rgba(0, 0, 0, 0.4);
     text-shadow: 0px 0px 2px #131415;

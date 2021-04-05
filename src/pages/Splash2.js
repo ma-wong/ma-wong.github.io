@@ -122,7 +122,7 @@ class Splash2 extends Component {
                     />
                 
                 
-                <div className="text">
+                <div className="splash-overlay">
                     <Header />
                 </div>
 
