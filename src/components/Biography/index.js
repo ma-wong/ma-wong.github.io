@@ -69,38 +69,37 @@ function Biography() {
                 <div className="row">
                     <h6 id="skills-header" className="col-md-2">SKILLS:</h6>
                     <div className="col-md-10">
-                        <div className="row">
-                            <ul className="col-md-3 skills-list">
+                        <div className="row skills-list">
+                            <ul className="col-md-3">
                                 <li>Javascript</li>
                                 <li>React.js</li>
                                 <li>HTML</li>
                             </ul>
-                            <ul className="col-md-3 skills-list">
+                            <ul className="col-md-3">
                                 <li>CSS</li>
                                 <li>jQuery</li>
                                 <li>Bootstrap</li>
                             </ul>
-                            <ul className="col-md-3 skills-list">
+                            <ul className="col-md-3">
                                 <li>Node.js</li>
                                 <li>MySQL</li>
                                 <li>MongoDB</li>
                             </ul>
-                            <ul className="col-md-3 skills-list">
+                            <ul className="col-md-3">
                                 <li>Express.js</li>
                                 <li>Photoshop</li>
                                 <li>Procreate</li>
-                
                             </ul>
                         </div>
+                        
                     </div>
 
                 </div>
-                
-
             </div>
             
 
             <div className="row hex-div">
+                <p id="photo-header">Check out some of my photography!</p>
                 <Hexagons />
             </div>
 

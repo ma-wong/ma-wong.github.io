@@ -123,17 +123,18 @@
     bottom: 0;
     left: 0;
     content: '';
-    opacity: 0;
-    transition: opacity 0.5s;
+    /* opacity: 0;
+    transition: opacity 0.5s; */
 }
 
+/* 
 .img:before {
     background: rgba(22, 103, 137, 0.3);
-}
+} */
 
-.img:after {
+/* .img:after {
     background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5), transparent);
-}
+} */
 
 /*** HOVER EFFECT  **********************************************************************/
 
@@ -211,7 +212,7 @@
 
 
 /*GrayScale*/
-/* #grayscale {
+#grayscale {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 	-webkit-transition: .3s ease-in-out;
@@ -221,4 +222,4 @@
 #grayscale:hover {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
-} */
+}

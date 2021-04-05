@@ -86,6 +86,12 @@
 }
 
 /* hexagons */
+
+#photo-header {
+    font-size: 17pt;
+    font-weight: lighter;
+    color: #ffffff;
+}
 .hex-div {
     margin-top: 2rem;
 }
