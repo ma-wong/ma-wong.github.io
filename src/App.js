@@ -9,6 +9,7 @@ import Nav from "./components/Nav";
 // import Footer from"./components/Footer";
 import "./style.css";
 import Splash2 from "./pages/Splash2";
+import Photography from "./pages/Photography";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/photography" component={Photography} />
         </Switch>
       </div>
     </Router>
