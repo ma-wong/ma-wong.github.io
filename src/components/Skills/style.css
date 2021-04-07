@@ -12,6 +12,10 @@
   display: inline-block;
   top: 0;
   transition: all 0.2s ease;
+
+  border-top: solid #2ee990;
+  border-bottom: solid #2ee990;
+  border-width: 2px;
 }
 .skills-badge:before, .skills-badge:after {
   position: absolute;
@@ -25,6 +29,13 @@
   right: 0;
   bottom: 0;
   margin: auto;
+
+  /* border-top: solid #fff;
+  border-bottom: solid #fff; */
+
+  border-top: solid #2ee990;
+  border-bottom: solid #2ee990;
+  border-width: 2px;
 }
 .skills-badge:before {
   transform: rotate(60deg);
@@ -39,9 +50,15 @@
   width: 60px;
   height: 60px;
   position: absolute;
-  background: #fff;
+  /* background: #959794; */
   z-index: 10;
-  border-radius: 50%;
+
+
+  /* border-radius: 50%;
+  border-style: solid;
+  border-color: #959794;
+  border-width: 2px; */
+
   top: 0;
   left: 0;
   right: 0;
@@ -52,6 +69,9 @@
   font-size: 37px;
   /* font-size: 3rem; */
   margin-top: 8px;
+  color: #fff;
+  /* color: #2ee990; */
+  /* color: #959794; */
 }
 .skills-badge .font {
   display: inline-block;
@@ -63,7 +83,9 @@
   /* padding: 5px 5px 4px; */
   width: 100px;
   z-index: 11;
-  color: #fff;
+  /* color: #fff; */
+  /* color: #959794; */
+  color: #2ee990;
   bottom: 12px;
   left: 50%;
   margin-left: -50px;
@@ -72,11 +94,14 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
   text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
-  background: linear-gradient(to bottom right, #555 0%, #333 100%);
+  /* background: linear-gradient(to bottom right, #555 0%, #333 100%); */
+  background-color: #45433e;
+  /* background-color: #959794; */
+  /* background-color: #19171a; */
   cursor: default;
 }
 
-.yellow {
+/* .yellow {
   background: linear-gradient(to bottom right, #ffeb3b 0%, #fbc02d 100%);
   color: #ffb300;
 }
@@ -134,4 +159,4 @@
 .gold {
   background: linear-gradient(to bottom right, #e6ce6a 0%, #b7892b 100%);
   color: #b7892b;
-}
+} */
