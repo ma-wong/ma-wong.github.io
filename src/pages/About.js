@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Biography from "../components/Biography";
 import "../pageStyles/About.css";
+import Skills from "../components/Skills";
 
 class About extends Component {
     
@@ -19,6 +20,8 @@ class About extends Component {
                 
     
                 <Biography />
+
+                <Skills />
                 
             </div>
         )

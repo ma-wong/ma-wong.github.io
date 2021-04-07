@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import profileImg from "./img/profile.jpg";
-import Hexagons from "../Hexagons/test2.js";
 
 function Biography() {
 
@@ -9,7 +8,7 @@ function Biography() {
         <div>
             <div className="row">
                 <div className="col-md-5 about-img-div">
-                    <div style={{backgroundImage: `url(${profileImg})`}} className='col-md-5 badge'>
+                    <div style={{backgroundImage: `url(${profileImg})`}} className='col-md-5 bio-photo'>
                         <div className='text'>Hello!</div>
                     </div>
                 </div>
@@ -65,7 +64,7 @@ function Biography() {
             </div> */}
 
             {/* Skills List */}
-            <div className="skills-div">
+            {/* <div className="skills-div">
                 <div className="row">
                     <h6 id="skills-header" className="col-md-2">SKILLS:</h6>
                     <div className="col-md-10">
@@ -95,13 +94,7 @@ function Biography() {
                     </div>
 
                 </div>
-            </div>
-            
-
-            <div className="row hex-div">
-                <p id="photo-header">Check out some of my photography!</p>
-                <Hexagons />
-            </div>
+            </div> */}
 
         </div>
     )
