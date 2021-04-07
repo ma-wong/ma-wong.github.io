@@ -5,11 +5,15 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
-// import Splash from "./pages/Splash";
-// import Footer from"./components/Footer";
 import "./style.css";
 import Splash2 from "./pages/Splash2";
 import Photography from "./pages/Photography";
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faCheckSquare, faCoffee, faDatabase, faImages, faPaintBrush, faServer } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, faCheckSquare, faCoffee, faDatabase, faImages, faPaintBrush, faServer)
 
 function App() {
   return (

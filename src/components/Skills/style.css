@@ -48,8 +48,9 @@
   bottom: 0;
   margin: auto;
 }
-.skills-badge .circle i.fa {
-  font-size: 2em;
+.skills-badge .circle .fa {
+  font-size: 37px;
+  /* font-size: 3rem; */
   margin-top: 8px;
 }
 .skills-badge .font {
