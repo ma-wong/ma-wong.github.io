@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Biography from "../components/Biography";
 import "../pageStyles/About.css";
 import Skills from "../components/Skills";
+import Footer from "../components/Footer";
 
 class About extends Component {
     
@@ -22,6 +23,8 @@ class About extends Component {
                 <Biography />
 
                 <Skills />
+
+                <Footer />
                 
             </div>
         )

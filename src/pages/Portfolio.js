@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from "../components/ProjectCard";
 import "../pageStyles/Portfolio.css";
+import Footer from "../components/Footer";
 
 class Portfolio extends Component {
 
@@ -19,6 +20,8 @@ class Portfolio extends Component {
                 </div>
                 
                 <ProjectCard />
+
+                <Footer />
             </div>
         )
     }

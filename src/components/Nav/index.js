@@ -82,7 +82,7 @@ function Nav() {
         // </div>
         
         // ---- TESTING------
-        <div id="nav-container" className="container">
+        <div id="nav-div" className="container">
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <Link to= {"/"}>

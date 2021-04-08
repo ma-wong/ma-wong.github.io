@@ -2,7 +2,6 @@
   height: 3rem;
   width: 3rem;
   margin: 0rem .5rem;
-
 }
 
 .social-icons:hover {
@@ -17,7 +16,7 @@
 }
 
 .contact-card {
-  margin: 2rem 0rem 4rem;
+  margin: 2rem 0rem 0rem;
   background-color: #19171a;
 }
 

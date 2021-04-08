@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ContactCard from "../components/ContactCard";
 import "../pageStyles/Contact.css";
+import Footer from "../components/Footer";
 
 class Contact extends Component {
     
@@ -19,6 +20,8 @@ class Contact extends Component {
                 </div>
                 
                 <ContactCard />
+
+                <Footer />
             </div>
         )
     }
