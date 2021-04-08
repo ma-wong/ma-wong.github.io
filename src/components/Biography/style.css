@@ -1,42 +1,21 @@
 #bio-text {
     font-size: 15pt;
-    line-height: 2;
-    color: #959794;
-    /* color: #ffffff; */
-}
-
-#bio-text:hover {
+    line-height: 1.9;
     color: #ffffff;
-}
-
-/* .about-img-container {
     text-align: center;
-} */
-
-#skills-header {
-    font-size: 17pt;
-    font-weight: lighter;
-    color: #ffffff;
-}
-
-.skills-list {
-    font-size: 14pt;
-    line-height: 1.7;
-    /* padding-left: 1rem; */
-}
-
-.skills-div {
-    color: #959794;
-    border-style: solid;
-    border-color: #2ee990;
-    border-width: 1px;
-    padding: 1rem;
-    margin-top: 2rem;
 }
 
 .tab {
     display: inline-block;
     margin-left: 40px;
+}
+
+#photo-link {
+    color: #2ee990;
+}
+
+#photo-link:hover {
+    text-decoration: underline;
 }
 
 /* bio image */
@@ -51,6 +30,9 @@
     border-radius: 50%;
     transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
     box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);
+
+    margin: 0 auto;
+    margin-right: 5rem;
 }
 .bio-photo:hover {
     box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);
@@ -81,6 +63,8 @@
     font-family: 'Poiret One', cursive;
     text-align: center;
     color: #fff;
+    /* color: #2ee990; */
+    font-weight: bold;
     border-radius: 50%;
     /* background: #959794; */
     background: #2ee990;

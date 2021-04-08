@@ -1,17 +1,20 @@
 import React from "react";
 import "./style.css";
 import profileImg from "./img/profile.jpg";
+import { Link } from "react-router-dom";
 
 function Biography() {
 
     return(
         <div>
             <div className="row">
-                <div className="col-md-5 about-img-div">
-                    <div style={{backgroundImage: `url(${profileImg})`}} className='col-md-5 bio-photo'>
+                <div className="col-md-5 bio-photo-div">
+                    <div className='bio-photo' style={{backgroundImage: `url(${profileImg})`}}>
                         <div className='text'>Hello!</div>
                     </div>
                 </div>
+
+                {/* <div className="col-md-1"></div> */}
 
                 <div className="col-md-7">
                     <p id="bio-text">
@@ -19,82 +22,11 @@ function Biography() {
                         I am currently acting as a freelancer for independent clients and small businesses while also completing my major in Biopsychology.
                         I develop and design functional, aesthetic, and user-oriented websites as well as web applications by combining my artistic background with conventional web practices.
                         Formerly a professional photographer, I continue to express my creativity through my websites, traditional canvas art, and graphic design.
+                        Check out some of my photography <Link to={"/photography"}><span id="photo-link">HERE!</span></Link>
                     </p>
                 </div>
 
             </div>
-
-
-            {/* <div className="row">
-                <div className="col-md-5"></div>
-
-                <div className="col-md-7 skills-div">
-                    <div className="row">
-                        <h6 id="skills-header" className="col-md-2">SKILLS:</h6>
-                        <div className="col-md-10">
-                            <div className="row">
-                                <ul className="col-md-3 skills-list">
-                                    <li>Javascript</li>
-                                    <li>React.js</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                </ul>
-                                <ul className="col-md-3 skills-list">
-                                    <li>jQuery</li>
-                                    <li>Bootstrap</li>
-                                    <li>Node.js</li>
-                                    <li>MySQL</li>
-                                </ul>
-                                <ul className="col-md-3 skills-list">
-                                    <li>MongoDB</li>
-                                    <li>Express.js</li>
-                                    <li>Photoshop</li>
-                                    <li>Procreate</li>
-                    
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-
-                </div>
-                
-
-            </div> */}
-
-            {/* Skills List */}
-            {/* <div className="skills-div">
-                <div className="row">
-                    <h6 id="skills-header" className="col-md-2">SKILLS:</h6>
-                    <div className="col-md-10">
-                        <div className="row skills-list">
-                            <ul className="col-md-3">
-                                <li>Javascript</li>
-                                <li>React.js</li>
-                                <li>HTML</li>
-                            </ul>
-                            <ul className="col-md-3">
-                                <li>CSS</li>
-                                <li>jQuery</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                            <ul className="col-md-3">
-                                <li>Node.js</li>
-                                <li>MySQL</li>
-                                <li>MongoDB</li>
-                            </ul>
-                            <ul className="col-md-3">
-                                <li>Express.js</li>
-                                <li>Photoshop</li>
-                                <li>Procreate</li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-
-                </div>
-            </div> */}
 
         </div>
     )
