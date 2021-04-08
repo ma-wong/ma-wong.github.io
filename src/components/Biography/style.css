@@ -1,7 +1,11 @@
 #bio-text {
     font-size: 15pt;
     line-height: 2;
-    /* color: #959794; */
+    color: #959794;
+    /* color: #ffffff; */
+}
+
+#bio-text:hover {
     color: #ffffff;
 }
 
