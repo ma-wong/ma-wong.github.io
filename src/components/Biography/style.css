@@ -3,6 +3,7 @@
     line-height: 1.9;
     color: #ffffff;
     text-align: center;
+    padding-right: 1rem;
 }
 
 .tab {
@@ -22,8 +23,11 @@
 .bio-photo {
     display: block;
     position: relative;
-    width: 20rem;
-    height: 20rem;
+    /* width: 20rem;
+    height: 20rem; */
+
+    width: 22rem;
+    height: 22rem;
     cursor: pointer;
     background: no-repeat 100% 50%;
     background-size: 120%;
@@ -54,6 +58,10 @@
     position: absolute;
     width: 10rem;
     height: 10rem;
+
+    /* width: 11rem;
+    height: 11rem; */
+
     line-height: 10rem;
     left: 50%;
     top: 50%;
