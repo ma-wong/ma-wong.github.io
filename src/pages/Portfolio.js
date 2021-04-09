@@ -1,23 +1,25 @@
 import React, { Component } from "react";
 import ProjectCard from "../components/ProjectCard";
-import "../pageStyles/Portfolio.css";
 import Footer from "../components/Footer";
+import PageHeader from "../components/PageHeader";
 
 class Portfolio extends Component {
+
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            title: "MY WORK"
+        }
+    }
 
     render() {
         return (
             <div className="container">
 
-                <div className="row portfolio-header-row">
-                    <div className="col-md-3"></div>
-                    <div className="col-md-6">
-                        <hr />
-                        <h1 id="portfolio-header">MY WORK</h1>
-                        <hr />
-                    </div>
-                    <div className="col-md-3"></div>
-                </div>
+                <PageHeader
+                    title={this.state.title}
+                />
                 
                 <ProjectCard />
 

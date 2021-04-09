@@ -1,24 +1,26 @@
 import React, { Component } from "react";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
-import "../pageStyles/Photography.css";
+import PageHeader from "../components/PageHeader";
 
 class Photography extends Component {
+
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            title: "GALLERY"
+        }
+    }
 
     render() {
         return(
         
             <div className="container">
 
-                <div className="row photo-header-row">
-                    <div className="col-md-3"></div>
-                    <div className="col-md-6">
-                        <hr />
-                        <h1 id="photo-header">GALLERY</h1>
-                        <hr />
-                    </div>
-                    <div className="col-md-3"></div>
-                </div>
+                <PageHeader
+                    title={this.state.title}
+                />
                 
                 <Gallery />
                 

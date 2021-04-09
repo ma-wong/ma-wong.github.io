@@ -6,12 +6,13 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Nav from "./components/Nav";
 import "./style.css";
-import Splash2 from "./pages/Splash2";
 import Photography from "./pages/Photography";
+import Home from "./pages/Home";
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faCheckSquare, faCoffee, faDatabase, faImages, faPaintBrush, faServer } from '@fortawesome/free-solid-svg-icons';
+
 
 library.add(fab, faCheckSquare, faCoffee, faDatabase, faImages, faPaintBrush, faServer)
 
@@ -21,7 +22,7 @@ function App() {
       <div>
         <Nav />
         <Switch>
-          <Route exact path="/" component={Splash2} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />

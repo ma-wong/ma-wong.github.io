@@ -1,24 +1,25 @@
 import React, { Component } from "react";
 import Biography from "../components/Biography";
-import "../pageStyles/About.css";
 import Skills from "../components/Skills";
 import Footer from "../components/Footer";
+import PageHeader from "../components/PageHeader";
 
 class About extends Component {
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            title: "ABOUT"
+        }
+    }
     
     render() {
         return (
             <div className="container">
-                <div className="row about-header-row">
-                    <div className="col-md-3"></div>
-                    <div className="col-md-6">
-                        <hr />
-                        <h1 id="about-header">ABOUT ME</h1>
-                        <hr />
-                    </div>
-                    <div className="col-md-3"></div>
-                </div>
                 
+                <PageHeader
+                    title={this.state.title}
+                />
     
                 <Biography />
 
