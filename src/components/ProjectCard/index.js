@@ -22,61 +22,6 @@ function ProjectCard() {
         <div>
 
             {/* Card 1 */}
-            {/* <div className="card mb-3 project-card">
-                <div className="row g-0">
-                    
-                    <div id="carouselExampleIndicators-1" className="carousel slide col-md-7" data-bs-ride="carousel">
-                        <ol className="carousel-indicators">
-                            <li data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0" className="active"></li>
-                            <li data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="1"></li>
-                            <li data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="2"></li>
-                        </ol>
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                            <img src={Snippets1} className="d-block w-100 project-img" alt="..."/>
-                            </div>
-                            <div className="carousel-item">
-                            <img src={Snippets2} className="d-block w-100 project-img" alt="..."/>
-                            </div>
-                            <div className="carousel-item">
-                            <img src={Snippets3} className="d-block w-100 project-img" alt="..."/>
-                            </div>
-                        </div>
-                        <a className="carousel-control-prev" href="#carouselExampleIndicators-1" role="button" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </a>
-                        <a className="carousel-control-next" href="#carouselExampleIndicators-1" role="button" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </a>
-                    </div>
-                    
-                    <div className="col-md-5">
-                        <div className="card-body project-card-body">
-
-                            <h5 className="card-title portfolio-card-title">Snippets</h5>
-                            <p className="card-text">
-                                Snippets is an online application that allowd users to store snippets of code in a single organized library
-                                so that they can re-use boiler plate sections of their code in future projects. It also allows the user to search
-                                for keywords to return boiler plate code snippets that others have submitted publicaly.
-                            </p>
-
-                            <div className="row">
-                                <a href="https://github.com/ma-wong/project-3" target="_blank" className="col-md-6">
-                                    <button class="shrink-border project-btns">Github Repo</button>
-                                </a>
-                                <a href="#" className="col-md-6" target="_blank">
-                                    <button class="shrink-border project-btns">Deployed App</button>
-                                </a>                               
-                            </div>
-                                             
-                            <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
@@ -122,10 +67,10 @@ function ProjectCard() {
 
                             <div className="project-tools">
                                 <div className="row">
-                                    <p className="col-md-3 tools-row1">React</p>
-                                    <p className="col-md-3 tools-row1">Node.js</p>
-                                    <p className="col-md-3 tools-row1">Express</p>
-                                    <p className="col-md-3 tools-row1">Highlight.js</p>
+                                    <p className="col-md-3">React</p>
+                                    <p className="col-md-3">Node.js</p>
+                                    <p className="col-md-3">Express</p>
+                                    <p className="col-md-3">Highlight.js</p>
                                 </div>
                                 <div className="row">
                                     <p className="col-md-3">HTML/CSS</p>
@@ -271,7 +216,7 @@ function ProjectCard() {
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Musicology</h5>
-                            <div className="corner-frame musicology">
+                            <div className="corner-frame">
                                 <p className="card-text project-description">
                                     Musicology is a clean interface tool for music fans who want to easily review an artists’ discography, social media and upcoming events.
                                     It is also a resource for those fans who are seeking new music by providing similar artist suggestions.
