@@ -14,17 +14,6 @@ function ContactCard() {
     return (
 
         <div>
-            {/* <div className="row">
-                <div className="col-md-2"></div>
-                <div className="col-md-8 contact-description">
-                    <h2 id="get-in-touch">Get in touch!</h2>
-                    <h5>
-                        While I'm currently interested in freelance work, my inbox is open to ALL new opportunities.
-                        Feel free to use the form for questions, requests, or just to say hi!
-                    </h5>
-                </div>
-                <div className="col-md-2"></div>
-            </div> */}
         
             <div className="card contact-card">
                 
