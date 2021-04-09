@@ -15,17 +15,6 @@
   margin-top: 2.5rem;
 }
 
-.project-tools {
-  font-size: 11pt;
-  color: #959794;
-  text-align: left;
-  width: 100%;
-}
-
-.project-tools .row p {
-  margin-bottom: 10px;
-}
-
 .project-description {
   text-align: center;
   padding: 1rem;
@@ -35,7 +24,16 @@
   color: #ffffff;
 }
 
-/* Button Links */
+.project-tools {
+  background-color: transparent;
+  color: #959794;
+  border-style: none;
+  padding: 0 4px 8px;
+  text-align: center;
+  font-size: 11.5pt;
+}
+
+/* Button Links ----------------- */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 *, *::after, *::before {
   box-sizing: border-box;
@@ -111,7 +109,7 @@
   transform: scaleX(1) scaleY(1);
 }
 
-/* Messing with corner frame */
+/* Messing with corner frame ---------------- */
 .corner-frame {
   position:relative;
   width:100%;

@@ -65,32 +65,19 @@ function ProjectCard() {
                                 </p>
                             </div>
 
-                            <div className="project-tools">
-                                <div className="row">
-                                    <p className="col-md-3">React</p>
-                                    <p className="col-md-3">Node.js</p>
-                                    <p className="col-md-3">Express</p>
-                                    <p className="col-md-3">Highlight.js</p>
-                                </div>
-                                <div className="row">
-                                    <p className="col-md-3">HTML/CSS</p>
-                                    <p className="col-md-3">MySQL</p>
-                                    <p className="col-md-3">Cloudinary</p>
-                                    <p className="col-md-3">Passport</p>
-                                </div>
-                            </div>
+                            <ul class="list-group list-group-horizontal">
+                                <li className="list-group-item project-tools flex-fill">React</li>
+                                <li className="list-group-item project-tools flex-fill">Node.js</li>
+                                <li className="list-group-item project-tools flex-fill">Cloudinary</li>
+                                <li className="list-group-item project-tools flex-fill">Highlight.js</li>
+                            </ul>
 
-                            {/* <div className="row">
-                                <div className="col-md-8"></div>
-                                <a className="col-md-2" href="https://github.com/ma-wong" target="_blank" rel="noopener noreferrer">
-                                    <img  className="project-icons" src={githubIcon}></img>
-                                </a>
-                                <a className="col-md-2" href="https://linkedin.com/in/morgan-wong-95b305207" target="_blank" rel="noopener noreferrer">
-                                    <img className="project-icons" src={deployedIcon}></img>
-                                </a>
-                                <div className="col-md-8"></div>
-
-                            </div> */}
+                            <ul class="list-group list-group-horizontal">
+                                <li className="list-group-item project-tools flex-fill">HTML/CSS</li>
+                                <li className="list-group-item project-tools flex-fill">MySQL</li>
+                                <li className="list-group-item project-tools flex-fill">Express</li>
+                                <li className="list-group-item project-tools flex-fill">Passport</li>
+                            </ul>
 
                             <div className="row">
                                 <a href="https://github.com/ma-wong/project-3" target="_blank" className="col-md-6">
@@ -101,7 +88,6 @@ function ProjectCard() {
                                 </a>                               
                             </div>
                                              
-                            {/* <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p> */}
                         </div>
                     </div>
                 </div>
@@ -123,20 +109,16 @@ function ProjectCard() {
                                 </p>
                             </div>
 
-                            <div className="project-tools">
-                                <div className="row">
-                                    <p className="col-md-3 tools-row1">Javascript</p>
-                                    <p className="col-md-3 tools-row1">Node.js</p>
-                                    <p className="col-md-3 tools-row1">Express</p>
-                                    <p className="col-md-3 tools-row1">MySQL</p>
-                                </div>
-                                <div className="row">
-                                    <p className="col-md-3">HTML/CSS</p>
-                                    <p className="col-md-3">Bootstrap</p>
-                                    <p className="col-md-3"></p>
-                                    <p className="col-md-3"></p>
-                                </div>
-                            </div>
+                            <ul class="list-group list-group-horizontal">
+                                <li className="list-group-item project-tools flex-fill">Javascript</li>
+                                <li className="list-group-item project-tools flex-fill">Node.js</li>
+                                <li className="list-group-item project-tools flex-fill">Express</li>
+                                <li className="list-group-item project-tools flex-fill">MySQL</li>
+                            </ul>
+                            <ul class="list-group list-group-horizontal">
+                                <li className="list-group-item project-tools flex-fill">HTML/CSS</li>
+                                <li className="list-group-item project-tools flex-fill">Bootstrap</li>
+                            </ul>
 
                             <div className="row">
                                 <a href="https://github.com/ma-wong/icebox" target="_blank" className="col-md-6">
@@ -148,7 +130,6 @@ function ProjectCard() {
                                 
                             </div>
                     
-                            {/* <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p> */}
                         </div>
                     </div>
                     
@@ -223,20 +204,18 @@ function ProjectCard() {
                                 </p>
                             </div>
 
-                            <div className="project-tools">
-                                <div className="row">
-                                    <p className="col-md-3 tools-row1">Javascript</p>
-                                    <p className="col-md-3 tools-row1">HTML/CSS</p>
-                                    <p className="col-md-3 tools-row1">jQuery</p>
-                                    <p className="col-md-3 tools-row1">Spotify API</p>
-                                </div>
-                                <div className="row">
-                                    <p className="col-md-3">Taste Dive API</p>
-                                    <p className="col-md-3">Bands In Town API</p>
-                                    <p className="col-md-3">Musixmatch API</p>
-                                    <p className="col-md-3">Moment.js</p>
-                                </div>
-                            </div>
+                            <ul class="list-group list-group-horizontal">
+                                <li className="list-group-item project-tools flex-fill">Javascript</li>
+                                <li className="list-group-item project-tools flex-fill">HTML/CSS</li>
+                                <li className="list-group-item project-tools flex-fill">jQuery</li>
+                                <li className="list-group-item project-tools flex-fill">Spotify API</li>
+                            </ul>
+                            <ul class="list-group list-group-horizontal">
+                                <li className="list-group-item project-tools flex-fill">Taste Dive API</li>
+                                <li className="list-group-item project-tools flex-fill">Bands In Town API</li>
+                                <li className="list-group-item project-tools flex-fill">Musixmatch API</li>
+                                <li className="list-group-item project-tools flex-fill">Moment.js</li>
+                            </ul>
 
                             <div className="row">
                                 <a href="https://github.com/mfitzwinick/binary-babes" target="_blank" className="col-md-6">
@@ -247,7 +226,6 @@ function ProjectCard() {
                                 </a> */}
                             </div>
                     
-                            {/* <p id="portfolio-footer" className="card-text"><small className="text-muted">Last updated: 1/15/2021</small></p> */}
                         </div>
                     </div>
                 </div>
