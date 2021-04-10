@@ -8,7 +8,6 @@
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
-  
 }
 
 #contact-info-div {
@@ -33,7 +32,7 @@
 }
 
 .contact-form-label {
-  color: #959794;
+  color: #ffffff;
 }
 
 .contact-form-input {
@@ -60,8 +59,7 @@
 }
 
 .contact-info {
-  margin-bottom: 2rem;
-  margin-right: 2rem;
+  margin: 2rem 1rem 0rem;
 }
 
 #get-in-touch {
@@ -169,7 +167,7 @@
 
 /* contact Info */
 .contact-p {
-  margin-bottom: 0px;
+  /* margin-bottom: 0px; */
   font-size: 15pt;
   font-weight: bolder;
   text-align: center;
@@ -185,6 +183,7 @@
   background-size: 200% 100%;
   background-position: -100%;
   transition: all 0.3s ease-in-out;
+
 }
 
 .contact-p:before {

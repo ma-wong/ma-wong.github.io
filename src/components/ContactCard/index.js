@@ -34,29 +34,32 @@ function ContactCard() {
                     
                         <div className="row contact-info">
                             <div className="col-md-2">
-                                <img className="contact-icons" src={locationIcon}></img>
+                                <img className="contact-icons" src={locationIcon} />
                             </div>
-                            <div className="col-md-9">
-                                <p className="contact-p">Irvine, CA</p>
-                            </div>
+                            <p className="col-md-8 contact-p">Irvine, CA</p>
+
+                            <div className="col-md-2"></div>
+
                         </div>
 
                         <div className="row contact-info">
                             <div className="col-md-2">
                                 <img className="contact-icons" src={phoneIcon}></img>
                             </div>
-                            <div className="col-md-9">
-                                <p className="contact-p">(949) 337-8617</p>
-                            </div>
+
+                            <p className="col-md-8 contact-p">(949) 337-8617</p>
+
+                            <div className="col-md-2"></div>
                         </div>
 
                         <div className="row contact-info">
                             <div className="col-md-2">
                                 <img className="contact-icons" src={emailIcon}></img>
                             </div>
-                            <div className="col-md-9">
-                                <p className="contact-p">mw.web.develop@gmail.com</p>
-                            </div>
+
+                            <p className="col-md-8 contact-p">mw.web.develop@gmail.com</p>
+
+                            <div className="col-md-2"></div>
                         </div>
 
                         <a className="pdf-dwnld" href={resumeDownload} download="Resume">
@@ -65,9 +68,10 @@ function ContactCard() {
                                 <div className="col-md-2">
                                     <img className="contact-icons" src={downloadIcon}></img>
                                 </div>
-                                <div className="col-md-9">
-                                    <p className="contact-p">Download Resume</p>
-                                </div>
+                                
+                                <p className="col-md-8 contact-p">Download Resume</p>
+
+                                <div className="col-md-2"></div>
                                 
                             </div>
                         </a>
