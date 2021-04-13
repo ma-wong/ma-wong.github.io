@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ProjectCard from "../components/ProjectCard";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
+// import ProjectTiles from "../components/ProjectTiles";
 
 class Portfolio extends Component {
 
@@ -22,6 +23,8 @@ class Portfolio extends Component {
                 />
                 
                 <ProjectCard />
+
+                {/* <ProjectTiles /> */}
 
                 <Footer />
             </div>
