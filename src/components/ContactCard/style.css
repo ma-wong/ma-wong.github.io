@@ -29,6 +29,7 @@
   padding: 1rem 2rem;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.603), 0 6px 20px 0 rgba(0, 0, 0, 0.596); */
   box-shadow: 0 4px 8px 0 rgba(149, 151, 148, 0.5), 0 6px 20px 0 rgba(149, 151, 148, 0.493);
+  color: #ffffff;
 }
 
 .contact-form-label {
@@ -39,6 +40,7 @@
   background-color: transparent;
   border-color: #959794;
   border-bottom-color: #959794;
+  color: #ffffff;
 }
 
 .contact-form-input:focus {

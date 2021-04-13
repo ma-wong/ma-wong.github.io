@@ -7,7 +7,7 @@ import downloadIcon from "./img/download.png";
 
 import githubIcon from "./img/white-github.png";
 import linkedInIcon from "./img/linkedin.png";
-import resumeDownload from "./assets/web-resume.pdf";
+import resumeDownload from "./assets/Resume.pdf";
 import "./style.css";
 
 function ContactCard() {
