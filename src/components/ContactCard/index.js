@@ -11,6 +11,25 @@ import resumeDownload from "./assets/Resume.pdf";
 import "./style.css";
 
 function ContactCard() {
+
+    // function sendMessage(event) {
+    //     event.preventDefault();
+    //     let firstName = document.getElementById("contact-first").value.trim();
+    //     let lastName = document.getElementById("contact-last").value.trim();
+    //     let email = document.getElementById("contact-email").value.trim();
+    //     let comment = document.getElementById("contact-comment").value.trim();
+
+    //     let message = {
+    //         first: firstName,
+    //         last: lastName,
+    //         email: email,
+    //         comment: comment
+    //     }
+    //     console.log(message);
+
+
+    // }
+
     return (
 
         <div>
@@ -97,27 +116,20 @@ function ContactCard() {
                             <div className="row">
                                 <div className="col-md-6 mb-3">
                                     <label for="validationDefault01" className="form-label contact-form-label">First name</label>
-                                    <input type="text" className="form-control contact-form-input" id="validationDefault01" required />
+                                    <input id="contact-first" type="text" className="form-control contact-form-input" id="validationDefault01" required />
                                 </div>
-
-                                {/* <div className="col-md-6 mb-3 hello">
-                                    <label for="validationDefault01" className="form-label contact-form-label">First name</label>
-                                    <input type="text" className="form-control contact-form-input effect-7" id="validationDefault01" required />
-                                    <span className="focus-border">
-                                        <i></i>
-                                    </span>
-                                </div> */}
 
                                 <div className="col-md-6 mb-3">
                                     <label for="validationDefault02" className="form-label contact-form-label">Last name</label>
-                                    <input type="text" className="form-control contact-form-input" id="validationDefault02" required />
+                                    <input id="contact-last" type="text" className="form-control contact-form-input" id="validationDefault02" required />
                                 </div>
                             </div>
+
                             {/* email input */}
                             <div className="row">
                                 <div className="col-md-12 mb-3">
                                     <label for="validationDefault03" className="form-label contact-form-label">Email address</label>
-                                    <input type="email" className="form-control contact-form-input" id="validationDefault03" placeholder="name@example.com" required />
+                                    <input id="contact-email" type="email" className="form-control contact-form-input" id="validationDefault03" placeholder="name@example.com" required />
                                 </div>
                             </div>
 
@@ -125,13 +137,13 @@ function ContactCard() {
                             <div className="row">
                                 <div className="col-md-12 mb-3">
                                     <label for="validationDefault05" className="form-label contact-form-label">Comments</label>
-                                    <textarea type="text" className="form-control contact-form-input" id="validationDefault05" rows="8" required />
+                                    <textarea id="contact-comment" type="text" className="form-control contact-form-input" id="validationDefault05" rows="8" required />
                                 </div>
                             </div>
                             
                             {/* submit btn */}
                             <div className="d-grid gap-2 col-6 mx-auto">
-                                <button class="shrink-border1 submit-btn">SUBMIT</button>                              
+                                <button onClick={sendMessage} class="shrink-border1 submit-btn">SUBMIT</button>                              
                             </div>
                             
                         </form>
