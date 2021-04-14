@@ -1,4 +1,5 @@
 import React from "react";
+import emailjs from "emailjs-com";
 
 import locationIcon from "./img/location.png";
 import phoneIcon from "./img/phone.png";
@@ -12,21 +13,19 @@ import "./style.css";
 
 function ContactCard() {
 
-    // function sendMessage(event) {
-    //     event.preventDefault();
-    //     let firstName = document.getElementById("contact-first").value.trim();
-    //     let lastName = document.getElementById("contact-last").value.trim();
-    //     let email = document.getElementById("contact-email").value.trim();
-    //     let comment = document.getElementById("contact-comment").value.trim();
 
-    //     let message = {
-    //         first: firstName,
-    //         last: lastName,
-    //         email: email,
-    //         comment: comment
-    //     }
-    //     console.log(message);
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_dethx64', 'contact_form', e.target, 'user_fy9Wxu6PGeBEoiF6rpozI')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
 
+    // function clearFields() {
 
     // }
 
@@ -110,18 +109,18 @@ function ContactCard() {
                     {/* Contact Form */}
                     <div className="col-md-6 contact-input">
                         
-                        <form>
+                        <form className="contact-form" onSubmit={sendEmail}>
 
                             {/* name input */}
                             <div className="row">
                                 <div className="col-md-6 mb-3">
                                     <label for="validationDefault01" className="form-label contact-form-label">First name</label>
-                                    <input id="contact-first" type="text" className="form-control contact-form-input" id="validationDefault01" required />
+                                    <input name="from_firstName" type="text" className="form-control contact-form-input" id="validationDefault01" required />
                                 </div>
 
                                 <div className="col-md-6 mb-3">
                                     <label for="validationDefault02" className="form-label contact-form-label">Last name</label>
-                                    <input id="contact-last" type="text" className="form-control contact-form-input" id="validationDefault02" required />
+                                    <input name="from_lastName" type="text" className="form-control contact-form-input" id="validationDefault02" required />
                                 </div>
                             </div>
 
@@ -129,7 +128,7 @@ function ContactCard() {
                             <div className="row">
                                 <div className="col-md-12 mb-3">
                                     <label for="validationDefault03" className="form-label contact-form-label">Email address</label>
-                                    <input id="contact-email" type="email" className="form-control contact-form-input" id="validationDefault03" placeholder="name@example.com" required />
+                                    <input name="from_email" type="email" className="form-control contact-form-input" id="validationDefault03" placeholder="name@example.com" required />
                                 </div>
                             </div>
 
@@ -137,13 +136,13 @@ function ContactCard() {
                             <div className="row">
                                 <div className="col-md-12 mb-3">
                                     <label for="validationDefault05" className="form-label contact-form-label">Comments</label>
-                                    <textarea id="contact-comment" type="text" className="form-control contact-form-input" id="validationDefault05" rows="8" required />
+                                    <textarea name="comment" type="text" className="form-control contact-form-input" id="validationDefault05" rows="8" required />
                                 </div>
                             </div>
                             
                             {/* submit btn */}
                             <div className="d-grid gap-2 col-6 mx-auto">
-                                <button class="shrink-border1 submit-btn">SUBMIT</button>                              
+                                <button type="submit" value="send" class="shrink-border1 submit-btn">SUBMIT</button>                              
                             </div>
                             
                         </form>
