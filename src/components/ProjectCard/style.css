@@ -2,6 +2,8 @@
   font-size: 20pt;
   color: #ffffff;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
 }
 
 .project-img {

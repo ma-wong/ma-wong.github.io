@@ -11,9 +11,6 @@ import Snippets1 from "./img/Snippets/home.png";
 import Snippets2 from "./img/Snippets/browse.png";
 import Snippets3 from "./img/Snippets/details.png";
 
-import githubIcon from "./icons/github-project.png";
-import deployedIcon from "./icons/deployed-project.png";
-
 
 import "./style.css"
 
@@ -162,7 +159,7 @@ function ProjectCard() {
                 </div>
             </div>
 
-            {/* card 3 */}
+            {/* card 4 */}
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
@@ -230,6 +227,8 @@ function ProjectCard() {
                     </div>
                 </div>
             </div>
+
+            
 
         </div>
     )
