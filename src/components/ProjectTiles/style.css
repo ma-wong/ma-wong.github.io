@@ -65,6 +65,7 @@
     /* background-color:#99aeff; */
   box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
   transform: scale(1.05);
+  color: #ffffff;
 }
 .tile:hover img {
   opacity: 0.2;
