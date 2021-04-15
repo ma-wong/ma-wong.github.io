@@ -67,7 +67,7 @@
   /* color: #45433e; */
 }
 .tile:hover img {
-  opacity: 0.2;
+  opacity: 0.18;
 }
 .tile:hover .animate-text {
   transform: translateX(0);
@@ -123,10 +123,13 @@
 .tile-icon {
   font-size: 18pt;
   margin-right: 1rem;
+  color: #2ee990;
 }
 
-.tile-link {
-  color: #2ee990;
+.tile-icon:hover {
+  opacity: 70%;
+  transform: translateY(-3px)
+
 }
 
 .tile-icon-div {
