@@ -1,4 +1,9 @@
-#tiles-header {
-    color: #ffffff;
-    margin-top: 3rem;
+.project-headers {
+    color: #2ee990;
+    font-size: 20pt;
+    margin: 0rem;
+}
+
+#tile-header {
+    margin: 2rem 0rem;
 }
