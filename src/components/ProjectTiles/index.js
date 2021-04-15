@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Archies from "./imgs/Archies.png";
+import Archies from "./imgs/archies.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function ProjectTiles() {
