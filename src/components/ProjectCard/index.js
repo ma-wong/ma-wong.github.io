@@ -21,8 +21,8 @@ function ProjectCard() {
             {/* Card 1 */}
             <div className="card mb-3 project-card">
                 <div className="row g-0">
-                    
-                    <div id="carouselExampleIndicators-1" className="carousel slide col-md-7" data-bs-ride="carousel">
+            
+                    <div id="carouselExampleIndicators-1" className="carousel slide col-md-6" data-bs-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0" className="active"></li>
                             <li data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="1"></li>
@@ -49,7 +49,7 @@ function ProjectCard() {
                         </a>
                     </div>
                     
-                    <div className="col-md-5">
+                    <div className="col-md-6">
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Snippets</h5>
@@ -89,12 +89,12 @@ function ProjectCard() {
                     </div>
                 </div>
             </div>
-
+            
             {/* card 2 */}
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
-                    <div className="col-md-5">
+                    <div className="col-md-6">
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">ICE BOX</h5>
@@ -102,7 +102,7 @@ function ProjectCard() {
                             <div className="corner-frame">
                                 <p className="card-text project-description">Icebox is an online sneaker encyclopedia.
                                     Icebox stores information about the collaborators, the release date, the production size range and the current price range for prospective buyers.
-                                    On the search page, users can filter results by brand, collaborators, sizes, and more. This app is powered by javascript, express, and mysql.
+                                    On the search page, users can filter results by brand, collaborators, sizes, and more.
                                 </p>
                             </div>
 
@@ -130,7 +130,7 @@ function ProjectCard() {
                         </div>
                     </div>
                     
-                    <div id="carouselExampleIndicators-2" className="carousel carousel-dark slide col-md-7" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators-2" className="carousel carousel-dark slide col-md-6" data-bs-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" className="active"></li>
                             <li data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="1"></li>
@@ -159,11 +159,12 @@ function ProjectCard() {
                 </div>
             </div>
 
-            {/* card 4 */}
+
+            {/* card 3 */}
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
-                    <div id="carouselExampleIndicators-3" className="carousel carousel-dark slide col-md-7" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators-3" className="carousel carousel-dark slide col-md-6" data-bs-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="0" className="active"></li>
                             <li data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="1"></li>
@@ -190,7 +191,7 @@ function ProjectCard() {
                         </a>
                     </div>
                     
-                    <div className="col-md-5">
+                    <div className="col-md-6">
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Musicology</h5>
@@ -227,9 +228,6 @@ function ProjectCard() {
                     </div>
                 </div>
             </div>
-
-            
-
         </div>
     )
 }
