@@ -102,7 +102,6 @@ function ContactCard() {
 
                     {/* Contact Form */}
                     <div className="col-md-6 contact-input">
-                        
                         <form className="contact-form" onSubmit={sendEmail}>
 
                             {/* name input */}
