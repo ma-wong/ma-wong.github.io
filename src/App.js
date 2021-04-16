@@ -11,10 +11,10 @@ import Home from "./pages/Home";
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faCoffee, faDatabase, faExternalLinkAlt, faImages, faPaintBrush, faServer} from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faEnvelopeOpenText, faExternalLinkAlt, faFileDownload, faImages, faMapMarkerAlt, faPaintBrush, faPhoneAlt, faServer} from '@fortawesome/free-solid-svg-icons';
 
 
-library.add(fab, faCheckSquare, faCoffee, faDatabase, faImages, faPaintBrush, faServer, faExternalLinkAlt)
+library.add(fab, faDatabase, faImages, faPaintBrush, faServer, faExternalLinkAlt, faFileDownload, faMapMarkerAlt, faPhoneAlt, faEnvelopeOpenText)
 
 function App() {
   return (

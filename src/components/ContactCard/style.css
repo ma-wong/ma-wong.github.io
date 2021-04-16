@@ -27,7 +27,6 @@
 
 .contact-input {
   padding: 1rem 2rem;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.603), 0 6px 20px 0 rgba(0, 0, 0, 0.596); */
   box-shadow: 0 4px 8px 0 rgba(149, 151, 148, 0.5), 0 6px 20px 0 rgba(149, 151, 148, 0.493);
   color: #ffffff;
 }
@@ -61,7 +60,7 @@
 }
 
 .contact-info {
-  margin: 2rem 1rem 0rem;
+  margin: 2rem 0rem;
 }
 
 #get-in-touch {
@@ -73,15 +72,6 @@
   border-bottom-style: solid;
   border-bottom-color: #2ee990;
   border-bottom-width: 2px;
-}
-
-.contact-icons {
-  height: 2rem;
-  width: 2rem;
-}
-
-.contact-icons:hover {
-  opacity: 50%;
 }
 
 .pdf-dwnld {
@@ -208,4 +198,17 @@
 
 .contact-p:hover:before {
   width: 100%;
+}
+
+.contact-icon {
+  font-size: 20pt;
+  color: #ffffff;
+}
+
+.cIcon-div {
+  text-align: center;
+}
+
+.contact-icon:hover {
+  color: #2ee990;
 }

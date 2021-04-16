@@ -1,10 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 
-import locationIcon from "./img/location.png";
-import phoneIcon from "./img/phone.png";
-import emailIcon from "./img/email.png";
-import downloadIcon from "./img/download.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import githubIcon from "./img/white-github.png";
 import linkedInIcon from "./img/linkedin.png";
@@ -48,8 +45,8 @@ function ContactCard() {
                         </div>
                     
                         <div className="row contact-info">
-                            <div className="col-md-2">
-                                <img className="contact-icons" src={locationIcon} />
+                            <div className="col-md-2 cIcon-div">
+                                <FontAwesomeIcon className="contact-icon" icon="map-marker-alt"/>
                             </div>
                             <p className="col-md-8 contact-p">Irvine, CA</p>
 
@@ -58,8 +55,8 @@ function ContactCard() {
                         </div>
 
                         <div className="row contact-info">
-                            <div className="col-md-2">
-                                <img className="contact-icons" src={phoneIcon}></img>
+                            <div className="col-md-2 cIcon-div">
+                                <FontAwesomeIcon className="contact-icon" icon="phone-alt"/>
                             </div>
 
                             <p className="col-md-8 contact-p">(949) 337-8617</p>
@@ -68,8 +65,8 @@ function ContactCard() {
                         </div>
 
                         <div className="row contact-info">
-                            <div className="col-md-2">
-                                <img className="contact-icons" src={emailIcon}></img>
+                            <div className="col-md-2 cIcon-div">
+                                <FontAwesomeIcon className="contact-icon" icon="envelope-open-text"/>
                             </div>
 
                             <p className="col-md-8 contact-p">mw.web.develop@gmail.com</p>
@@ -80,8 +77,8 @@ function ContactCard() {
                         <a className="pdf-dwnld" href={resumeDownload} download="Resume">
                             <div className="row contact-info">
                                 
-                                <div className="col-md-2">
-                                    <img className="contact-icons" src={downloadIcon}></img>
+                                <div className="col-md-2 cIcon-div">
+                                    <FontAwesomeIcon className="contact-icon" icon="file-download"/>
                                 </div>
                                 
                                 <p className="col-md-8 contact-p">Download Resume</p>
