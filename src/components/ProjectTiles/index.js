@@ -55,12 +55,16 @@ function ProjectTiles() {
                     <img src='https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80' />
                     <div className="text">
                         {/* <h1>Lorem ipsum.</h1> */}
-                        <h2 className="animate-text">More lorem ipsum bacon ipsum.</h2>
-                        <p className="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+                        <h2 className="animate-text">Musicology</h2>
+                        <p className="animate-text">
+                            A single web application that combines several APIs to allow users to easily review an music artists’ discography, social media, upcoming events, annd similar artists 
+                        </p>
+
                         <div className="animate-text tile-icon-div">
-                            <a href="" className="tile-link"><FontAwesomeIcon className="tile-icon" icon={['fab', 'github']}/></a>
+                            <a href="https://github.com/mfitzwinick/binary-babes" className="tile-link"><FontAwesomeIcon className="tile-icon" icon={['fab', 'github']}/></a>
                             <a href="" className="tile-link"><FontAwesomeIcon className="tile-icon" icon="external-link-alt"/></a>
                         </div>
+
                         <div className="dots">
                             <span></span>
                             <span></span>

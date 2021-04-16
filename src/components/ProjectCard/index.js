@@ -48,16 +48,15 @@ function ProjectCard() {
                         </a>
                     </div>
                     
-                    <div className="col-md-5">
+                    <div className="col-md-5 description-div">
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Snippets</h5>
                             
                             <div className="corner-frame">
                                 <p className="card-text project-description">
-                                    Snippets is an online application that allowd users to store snippets of code in a single organized library
-                                    so that they can re-use boiler plate sections of their code in future projects. It also allows the user to search
-                                    for keywords to return boiler plate code snippets that others have submitted publicaly.
+                                    An easier way to access and re-use boiler plate sections of code for future projects. Stores snippets of code in a single organnized library.
+                                    Search for keywords to return boiler plate code snippets that you or others have submitted publicaly.
                                 </p>
                             </div>
 
@@ -80,7 +79,7 @@ function ProjectCard() {
                                     <button class="shrink-border project-btns">Github Repo</button>
                                 </a>
                                 <a href="#" className="col-md-6" target="_blank">
-                                    <button class="shrink-border project-btns">Deployed App</button>
+                                    <button class="shrink-border project-btns">Deployed</button>
                                 </a>                               
                             </div>
                                              
@@ -92,15 +91,14 @@ function ProjectCard() {
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
-                    <div className="col-md-5">
+                    <div className="col-md-5 description-div">
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">ICE BOX</h5>
 
                             <div className="corner-frame">
-                                <p className="card-text project-description">Icebox is an online sneaker encyclopedia.
-                                    Icebox stores information about the collaborators, the release date, the production size range and the current price range for prospective buyers.
-                                    On the search page, users can filter results by brand, collaborators, sizes, and more.
+                                <p className="card-text project-description">An online sneaker encyclopedia that stores information about the collaborators, the release date, the production size range and the current price range for prospective buyers.
+                                    Search and filter through results by brand, collaborators, sizes, release date, and more.
                                 </p>
                             </div>
 
@@ -120,7 +118,7 @@ function ProjectCard() {
                                     <button class="shrink-border project-btns">Github Repo</button>
                                 </a>
                                 <a href="https://infinite-castle-57105.herokuapp.com/" className="col-md-6" target="_blank">
-                                    <button class="shrink-border project-btns">Deployed App</button>
+                                    <button class="shrink-border project-btns">Deployed</button>
                                 </a>
                                 
                             </div>
@@ -158,8 +156,67 @@ function ProjectCard() {
             </div>
 
 
-            
             <div className="card mb-3 project-card">
+                <div className="row g-0">
+                    
+                    <div id="carouselExampleIndicators-3" className="carousel carousel-dark slide col-md-7" data-bs-ride="carousel">
+                        <ol className="carousel-indicators">
+                            <li data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="0" className="active"></li>
+                            <li data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="1"></li>
+                            <li data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div className="carousel-inner">
+                            <div className="carousel-item active">
+                            <img src={Musicology1} className="d-block w-100 project-img" alt="..."/>
+                            </div>
+                            <div className="carousel-item">
+                            <img src={Musicology2} className="d-block w-100 project-img" alt="..."/>
+                            </div>
+                            <div className="carousel-item">
+                            <img src={Musicology3} className="d-block w-100 project-img" alt="..."/>
+                            </div>
+                        </div>
+                        <a className="carousel-control-prev" href="#carouselExampleIndicators-3" role="button" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </a>
+                        <a className="carousel-control-next" href="#carouselExampleIndicators-3" role="button" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                    
+                    <div className="col-md-5 description-div">
+                        <div className="card-body project-card-body">
+
+                            <h5 className="card-title portfolio-card-title">Archie's Ice Cream</h5>
+                            <div className="corner-frame">
+                                <p className="card-text project-description">
+                                    Complete overhaul and redesign of Archie's Ice Cream website using Squarespace.
+                                    Custom graphics/logos were made with Photoshop and Procreate.
+                                </p>
+                            </div>
+
+                            <ul class="list-group list-group-horizontal">
+                                <li className="list-group-item project-tools flex-fill">Squarespace</li>
+                                <li className="list-group-item project-tools flex-fill">Photoshop</li>
+                                <li className="list-group-item project-tools flex-fill">Procreate</li>
+                            </ul>
+
+                            <div className="row">
+                                <a href="https://www.archiesicecream.com" target="_blank" className="col-md-6">
+                                    <button class="shrink-border project-btns">Deployed</button>
+                                </a>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            {/* <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
                     <div id="carouselExampleIndicators-3" className="carousel carousel-dark slide col-md-7" data-bs-ride="carousel">
@@ -222,7 +279,7 @@ function ProjectCard() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             {/* -------------------- */}
