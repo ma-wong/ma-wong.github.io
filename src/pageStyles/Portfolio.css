@@ -1,10 +1,15 @@
 .project-headers {
-    /* color: #2ee990; */
     color: #ffffff;
-    font-size: 25pt;
-    margin: 0rem;
+    font-size: 27pt;
+    margin: 1rem 0rem;
 }
 
 #tile-header {
-    margin: 2rem 0rem;
+    margin-top: 4rem;
+}
+
+.underlined {
+    border-bottom-style: solid;
+    border-bottom-color: #2ee990;
+    border-bottom-width: 2px;
 }

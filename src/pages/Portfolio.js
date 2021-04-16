@@ -22,11 +22,11 @@ class Portfolio extends Component {
                 <PageHeader
                     title={this.state.title}
                 />
-                <p id="featured-header" className="project-headers">Featured Projects</p>
+                <p id="featured-header" className="project-headers"><span className="underlined">Feature</span>d Projects</p>
                 
                 <ProjectCard />
 
-                <p id="tile-header" className="project-headers">Other Noteworthy Projects</p>
+                <p id="tile-header" className="project-headers"><span className="underlined">Other Not</span>eworthy Projects</p>
                 <ProjectTiles />
 
                 <Footer />
