@@ -75,7 +75,7 @@
 }
 .dots {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   right: 30px;
   margin: 0 auto;
   width: 30px;
@@ -121,7 +121,7 @@
 }
 
 .tile-icon {
-  font-size: 18pt;
+  font-size: 19pt;
   margin-right: 1rem;
   color: #2ee990;
 }
@@ -133,5 +133,12 @@
 }
 
 .tile-icon-div {
-  margin-top: 2rem;
+  position: absolute;
+  bottom: -6px;
+  left: 30px;
+  margin: 0 auto;
+  color: currentColor;
+  justify-content: space-around;
+  transition: transform 0.4s ease-out, opacity 0.5s ease;
+  transform: translateY(30px);
 }
