@@ -7,6 +7,10 @@ import Snippets1 from "./img/Snippets/home.png";
 import Snippets2 from "./img/Snippets/browse.png";
 import Snippets3 from "./img/Snippets/details.png";
 
+import Archies1 from "./img/Archies/archies1.png";
+import Archies2 from "./img/Archies/archies2.png";
+import Archies3 from "./img/Archies/archies3.png";
+
 
 import "./style.css"
 
@@ -17,7 +21,7 @@ function ProjectCard() {
             <div className="card mb-3 project-card">
                 <div className="row g-0">
             
-                    <div id="carouselExampleIndicators-1" className="carousel slide col-md-7" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators-1" className="carousel slide col-md-6" data-bs-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="0" className="active"></li>
                             <li data-bs-target="#carouselExampleIndicators-1" data-bs-slide-to="1"></li>
@@ -44,7 +48,7 @@ function ProjectCard() {
                         </a>
                     </div>
                     
-                    <div className="col-md-5 description-div">
+                    <div className="col-md-6 description-div">
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Snippets</h5>
@@ -87,7 +91,7 @@ function ProjectCard() {
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
-                    <div className="col-md-5 description-div">
+                    <div className="col-md-6 description-div">
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">ICE BOX</h5>
@@ -122,7 +126,7 @@ function ProjectCard() {
                         </div>
                     </div>
                     
-                    <div id="carouselExampleIndicators-2" className="carousel carousel-dark slide col-md-7" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators-2" className="carousel carousel-dark slide col-md-6" data-bs-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" className="active"></li>
                             <li data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="1"></li>
@@ -155,7 +159,7 @@ function ProjectCard() {
             <div className="card mb-3 project-card">
                 <div className="row g-0">
                     
-                    <div id="carouselExampleIndicators-3" className="carousel carousel-dark slide col-md-7" data-bs-ride="carousel">
+                    <div id="carouselExampleIndicators-3" className="carousel carousel-dark slide col-md-6" data-bs-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="0" className="active"></li>
                             <li data-bs-target="#carouselExampleIndicators-3" data-bs-slide-to="1"></li>
@@ -163,13 +167,13 @@ function ProjectCard() {
                         </ol>
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                            <img src={icebox1} className="d-block w-100 project-img" alt="..."/>
+                            <img src={Archies1} className="d-block w-100 project-img" alt="..."/>
                             </div>
                             <div className="carousel-item">
-                            <img src={icebox1} className="d-block w-100 project-img" alt="..."/>
+                            <img src={Archies2} className="d-block w-100 project-img" alt="..."/>
                             </div>
                             <div className="carousel-item">
-                            <img src={icebox1} className="d-block w-100 project-img" alt="..."/>
+                            <img src={Archies3} className="d-block w-100 project-img" alt="..."/>
                             </div>
                         </div>
                         <a className="carousel-control-prev" href="#carouselExampleIndicators-3" role="button" data-bs-slide="prev">
@@ -182,7 +186,7 @@ function ProjectCard() {
                         </a>
                     </div>
                     
-                    <div className="col-md-5 description-div">
+                    <div className="col-md-6 description-div">
                         <div className="card-body project-card-body">
 
                             <h5 className="card-title portfolio-card-title">Archie's Ice Cream</h5>

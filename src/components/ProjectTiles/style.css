@@ -121,7 +121,7 @@
 }
 
 .tile-icon {
-  font-size: 19pt;
+  font-size: 20pt;
   margin-right: 1rem;
   color: #2ee990;
 }
@@ -134,7 +134,7 @@
 
 .tile-icon-div {
   position: absolute;
-  bottom: -6px;
+  bottom: -4px;
   left: 30px;
   margin: 0 auto;
   color: currentColor;
