@@ -10,7 +10,7 @@ function Nav() {
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <div className="container-fluid">
                     <Link to= {"/"}>
-                        <img id="nav-logo" src={logo} alt="" width="30" height="24"/>
+                        <img id="nav-logo" src={logo} alt="MW Dev"/>
                     </Link>
 
                     {/* Nav Buttonn */}

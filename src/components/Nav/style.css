@@ -17,9 +17,15 @@
 }
 
 #nav-logo {
-    width: 90px;
-    height: 90px;
+    width: 85px;
+    height: 85px;
 }
+
+#nav-logo:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
 
 .navbar-dark .navbar-toggler {
     color: #2ee990;
