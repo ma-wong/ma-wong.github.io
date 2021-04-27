@@ -1,5 +1,4 @@
 div .gallery {
-    /* margin: 0rem 0rem 4rem 0rem; */
     margin: 0;
     /* min-height: 100vh; */
     display: flex;
@@ -40,7 +39,7 @@ div .gallery {
 }
 
 .gallery .photo-card:hover {
-    flex-grow: 10;
+    flex-grow: 30;
 }
 
 .gallery .photo-card:hover img {
@@ -65,5 +64,5 @@ div .gallery {
 }
 
 .gallery .photo-card:not(:nth-child(5)) {
-    margin-right: 1em;
+    margin-right: .8em;
 }

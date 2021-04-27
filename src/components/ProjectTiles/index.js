@@ -63,7 +63,7 @@ function ProjectTiles() {
                     <div className="text">
                         <h2 className="animate-text">Employee Tracker</h2>
                         <p className="animate-text">
-                            A terminal based app that allows business owners to view/manage employees, department, and roles withinn a designated employee database.
+                            Terminal based app allows business owners to view/manage employees, department, and roles within a designated employee database.
                             Built with Javascript, jQuery, mySQL, and Node.js
                         </p>
                         <div className="animate-text tile-icon-div">

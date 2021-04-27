@@ -20,7 +20,7 @@ function Gallery() {
         <div className="gallery">
             <div className="photo-card">
                 <img src={snails}/>
-                {/* <div className="photo-card__head">Plotting Cat</div> */}
+                {/* <div className="photo-card__head">EVENTS</div> */}
             </div>
             <div className="photo-card">
                 <img src={caterpillar}/>
