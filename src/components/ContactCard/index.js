@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import githubIcon from "./img/white-github.png";
 import linkedInIcon from "./img/linkedin.png";
-import resumeDownload from "./assets/Resume.pdf";
+import resumeDownload from "./assets/MW-Resume.pdf";
 import "./style.css";
 
 function ContactCard() {
