@@ -26,17 +26,17 @@ function Nav() {
                         <div className="offcanvas-body">
                             <div className="row">
                                 <Link to={"/about"}>
-                                    <p className="offcanvas-nav-link">ABOUT</p>
+                                    <p className="offcanvas-nav-link" data-bs-dismiss="offcanvas">ABOUT</p>
                                 </Link>
                             </div>
                             <div className="row">
                                 <Link to={"/portfolio"}>
-                                    <p className="offcanvas-nav-link">PORTFOLIO</p>
+                                    <p className="offcanvas-nav-link" data-bs-dismiss="offcanvas">PORTFOLIO</p>
                                 </Link>
                             <div className="row">
                             </div>
                                 <Link to={"/contact"}>
-                                    <p className="offcanvas-nav-link">CONTACT</p>
+                                    <p className="offcanvas-nav-link" data-bs-dismiss="offcanvas">CONTACT</p>
                                 </Link>
                             </div>
                         </div>
