@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.66016740.chunk.css",
-    "main.js": "/static/js/main.1576f839.chunk.js",
-    "main.js.map": "/static/js/main.1576f839.chunk.js.map",
+    "main.css": "/static/css/main.4eed53b6.chunk.css",
+    "main.js": "/static/js/main.3b1f5f97.chunk.js",
+    "main.js.map": "/static/js/main.3b1f5f97.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c012fedc.js",
     "runtime-main.js.map": "/static/js/runtime-main.c012fedc.js.map",
     "static/js/2.93cae9e6.chunk.js": "/static/js/2.93cae9e6.chunk.js",
     "static/js/2.93cae9e6.chunk.js.map": "/static/js/2.93cae9e6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.66016740.chunk.css.map": "/static/css/main.66016740.chunk.css.map",
+    "static/css/main.4eed53b6.chunk.css.map": "/static/css/main.4eed53b6.chunk.css.map",
     "static/js/2.93cae9e6.chunk.js.LICENSE.txt": "/static/js/2.93cae9e6.chunk.js.LICENSE.txt",
     "static/media/MW-Resume.ae6f8c69.pdf": "/static/media/MW-Resume.ae6f8c69.pdf",
     "static/media/archies.652fb102.png": "/static/media/archies.652fb102.png",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.c012fedc.js",
     "static/js/2.93cae9e6.chunk.js",
-    "static/css/main.66016740.chunk.css",
-    "static/js/main.1576f839.chunk.js"
+    "static/css/main.4eed53b6.chunk.css",
+    "static/js/main.3b1f5f97.chunk.js"
   ]
 }
